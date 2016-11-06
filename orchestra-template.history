@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1478205563" tv-usec="0" name="capture">
+    <StatefulDiffCommand obj-id="40503" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205629" tv-usec="0" name="delete MIDI">
+    <NoteDiffCommand midi-source="49008">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="151869" note="70" channel="2" time="9.39735" length="2.26374" velocity="46"/>
+        <note id="151831" note="71" channel="2" time="6.67181" length="0.9765" velocity="62"/>
+        <note id="151833" note="78" channel="2" time="7.5528" length="1.89692" velocity="39"/>
+        <note id="151759" note="78" channel="2" time="2.08415" length="1.7755" velocity="54"/>
+        <note id="151829" note="78" channel="2" time="4.79193" length="1.95648" velocity="46"/>
+        <note id="151762" note="72" channel="2" time="3.88239" length="0.953761" velocity="56"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205634" tv-usec="0" name="move notes">
+    <NoteDiffCommand midi-source="49008">
+      <ChangedNotes>
+        <Change property="StartTime" old="1.16565" new="0" id="151758"/>
+        <Change property="NoteNumber" old="74" new="62" id="151758"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205639" tv-usec="0" name="Region end trim"/>
+  <UndoTransaction tv-sec="1478205652" tv-usec="0" name="resize notes">
+    <NoteDiffCommand midi-source="49008">
+      <ChangedNotes>
+        <Change property="Length" old="0.949519" new="141.5" id="151758"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205744" tv-usec="0" name="delete MIDI"/>
+  <UndoTransaction tv-sec="1478205944" tv-usec="0" name="add marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51588" name="mark1" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205945" tv-usec="0" name="add marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51588" name="mark1" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51588" name="mark1" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51592" name="mark2" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478205945" tv-usec="0" name="add marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51588" name="mark1" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51592" name="mark2" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="21141" name="session" start="0" end="4286519" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51588" name="mark1" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51592" name="mark2" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="51596" name="mark3" start="452608" end="452608" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210764" tv-usec="0" name="capture">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210858" tv-usec="0" name="delete objects">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210861" tv-usec="0" name="delete objects">
+    <StatefulDiffCommand obj-id="40503" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210900" tv-usec="0" name="capture">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210903" tv-usec="0" name="delete objects">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210985" tv-usec="0" name="capture">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478210987" tv-usec="0" name="delete objects">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1478211125" tv-usec="0" name="capture">
+    <StatefulDiffCommand obj-id="39892" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+</UndoHistory>

@@ -1,0 +1,34 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://kxstudio.sf.net/carla/plugins/carlapatchbay32> ;
+	state:state [
+		<http://kxstudio.sf.net/ns/carla/chunk> """<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+  <LADSPA_PATH>/home/michael/.ladspa:/usr/lib/ladspa:/usr/local/lib/ladspa</LADSPA_PATH>
+  <DSSI_PATH>/home/michael/.dssi:/usr/lib/dssi:/usr/local/lib/dssi</DSSI_PATH>
+  <LV2_PATH>/home/michael/.lv2:/usr/lib/lv2:/usr/local/lib/lv2</LV2_PATH>
+  <VST2_PATH>/home/michael/.vst:/home/michael/Downloads/Freeverb3_VST_x64:/usr/lib/vst:/usr/local/lib/vst</VST2_PATH>
+  <VST3_PATH>/home/michael/.vst3:/home/michael/.wine/drive_c/Program Files (x86)/Common Files/VST3:/home/michael/.wine/drive_c/Program Files/Common Files/VST3:/usr/lib/vst3:/usr/local/lib/vst3</VST3_PATH>
+  <GIG_PATH>/home/michael/.sounds/gig:/home/michael/Music/Instruments:/usr/share/sounds/gig</GIG_PATH>
+  <SF2_PATH>/home/michael/.sounds/sf2:/home/michael/Music/Instruments:/usr/share/sounds/sf2</SF2_PATH>
+  <SFZ_PATH>/home/michael/.sounds/sfz:/home/michael/Music/Instruments:/usr/share/sounds/sfz</SFZ_PATH>
+ </EngineSettings>
+</CARLA-PROJECT>
+"""
+	] .
