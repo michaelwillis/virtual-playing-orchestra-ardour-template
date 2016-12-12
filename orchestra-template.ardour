@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="529971" name-counter="1" event-counter="2224542" vca-counter="1">
+<Session version="3002" name="orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="543991" name-counter="1" event-counter="2234936" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.3-4-gb7e8d6f" modified-with="Ardour 5.5"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -5096,13 +5096,13 @@
       <Window name="PM-195751-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38801-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38802-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-38957-38989" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38957-38987" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38957-195829" visible="no" x-off="161" y-off="135" x-size="627" y-size="466" custom-ui="no"/>
+      <Window name="P-38957-38989" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38957-38990" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-38989-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38987-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-195829-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-38989-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38990-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-39004-39034" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-39004-195866" visible="no" x-off="0" y-off="0" x-size="627" y-size="466" custom-ui="no"/>
@@ -5593,7 +5593,7 @@
       <Window name="P-33021-33057" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33021-33052" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33021-33051" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-33021-458526" visible="yes" x-off="1021" y-off="337" x-size="760" y-size="565" custom-ui="yes"/>
+      <Window name="P-33021-458526" visible="no" x-off="1021" y-off="337" x-size="463" y-size="53" custom-ui="yes"/>
       <Window name="P-33021-33053" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33021-33054" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-33057-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -5605,7 +5605,7 @@
       <Window name="P-33128-33164" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33128-33159" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33128-33158" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-33128-458533" visible="yes" x-off="926" y-off="64" x-size="760" y-size="565" custom-ui="yes"/>
+      <Window name="P-33128-458533" visible="no" x-off="926" y-off="64" x-size="463" y-size="53" custom-ui="yes"/>
       <Window name="P-33128-33160" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33128-33161" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-33164-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
