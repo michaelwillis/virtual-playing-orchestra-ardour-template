@@ -51,7 +51,7 @@ There is a midi bus called "Midi In" at the top for recording convenience. Using
 
 Each section and solo part is given distinct stage presence with a more or less traditional seating arrangement:
 
-
+![Seating Chart](seating.png)
 
 ### More technical details
 
