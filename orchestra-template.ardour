@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1150485" name-counter="2" event-counter="3089738" vca-counter="1">
+<Session version="3002" name="orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1419540" name-counter="2" event-counter="3340925" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.3-4-gb7e8d6f" modified-with="Ardour 5.5"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -91,7 +91,7 @@
       </IO>
       <IO name="Midi In" id="133993" direction="Output" default-type="audio" user-latency="0">
         <Port type="midi" name="Midi In/midi_out 1">
-          <Connection other="Piano/midi_in 1"/>
+          <Connection other="Misc Percussion/midi_in 1"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
@@ -1809,7 +1809,9 @@
       <Controllable name="solo-iso" id="595106" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="595107" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Misc Percussion" id="595094" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Misc Percussion/midi_in 1"/>
+        <Port type="midi" name="Misc Percussion/midi_in 1">
+          <Connection other="Midi In/midi_out 1"/>
+        </Port>
       </IO>
       <IO name="Misc Percussion" id="595095" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Misc Percussion/midi_out 1">
@@ -2403,9 +2405,7 @@
       <Controllable name="solo-iso" id="430924" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="430926" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Piano" id="39878" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Piano/midi_in 1">
-          <Connection other="Midi In/midi_out 1"/>
-        </Port>
+        <Port type="midi" name="Piano/midi_in 1"/>
       </IO>
       <IO name="Piano" id="39879" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Piano/midi_out 1">
@@ -5654,7 +5654,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
-          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9tYWVzdHJvLWNvbmNlcnQtZ3JhbmQvbWFlc3Ryb19jb25jZXJ0X2dyYW5kX3YyLmdpZwowIDAgMCAwIDEgLTIgR0lHCjEgMSAKLTEgMCAwIDIgMyAtMiBTRloKMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2hhcnAtc3VzdGFpbi5zZnoKMCAwIDAgNCA1IC0yIFNGWgozIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvaGFycC1kYW1wZW5lZC5zZnoKMCAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTAgMTEgLTIgU0ZaCjYgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMXN0LXZpb2xpbi1TRUMtcGl6emljYXRvLnNmegowIDAgMCAwIDEgLTIgU0ZaCjkgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNFQy10cmVtb2xvLnNmegowIDAgMCAxOCAxOSAtMiBTRloKMTAgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMjAgMjEgLTIgU0ZaCjExIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMm5kLXZpb2xpbi1TT0xPLXBpenppY2F0by5zZnoKMCAwIDAgMCAxIC0yIFNGWgoxMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDI0IDI1IC0yIFNGWgoxMyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU0VDLXBpenppY2F0by5zZnoKMCAwIDAgMjYgMjcgLTIgU0ZaCjE0IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMm5kLXZpb2xpbi1TRUMtdHJlbW9sby5zZnoKMCAwIDAgMjggMjkgLTIgU0ZaCjE1IDEgCi0xIDAgMCAzMCAzMSAtMiBTRloKAA==</chunk>
+          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9tYWVzdHJvLWNvbmNlcnQtZ3JhbmQvbWFlc3Ryb19jb25jZXJ0X2dyYW5kX3YyLmdpZwowIDAgMCAwIDEgLTIgR0lHCjEgMSAKLTEgMCAwIDIgMyAtMiBTRloKMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2hhcnAtc3VzdGFpbi5zZnoKMCAwIDAgNCA1IC0yIFNGWgozIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvaGFycC1kYW1wZW5lZC5zZnoKMCAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTAgMTEgLTIgU0ZaCjYgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMXN0LXZpb2xpbi1TRUMtcGl6emljYXRvLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDE4IDE5IC0yIFNGWgoxMCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyMCAyMSAtMiBTRloKMTEgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAyMiAyMyAtMiBTRloKMTIgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyNCAyNSAtMiBTRloKMTMgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1waXp6aWNhdG8uc2Z6CjAgMCAwIDI2IDI3IC0yIFNGWgoxNCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDI4IDI5IC0yIFNGWgoxNSAxIAotMSAwIDAgMzAgMzEgLTIgU0ZaCgA=</chunk>
         </lxvst>
       </Processor>
       <Processor id="49787" name="Amp" active="yes" user-latency="0" type="amp">
@@ -6743,7 +6743,38 @@
         <Controllable name="trimcontrol" id="50297" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="50321" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="50295" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="50295" flags="" value="0.447403490543"/>
+      </Processor>
+      <Processor id="1288235" name="Invada High Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/hpf/stereo" count="1" custom="no">
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port symbol="bypass" value="+0.000000"/>
+          <Port symbol="freq" value="+224.607697"/>
+          <Port symbol="gain" value="+0.000000"/>
+          <Port symbol="noClip" value="+1.000000"/>
+        </lv2>
+        <Controllable name="Bypass" id="1288237" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
+        <Controllable name="Frequency" id="1288239" flags="" value="224.607696533203" parameter="1" symbol="freq"/>
+        <Controllable name="Gain" id="1288241" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
+        <Controllable name="Soft Clip" id="1288243" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
       </Processor>
       <Processor id="50323" name="meter-Bus 6" active="yes" user-latency="0" type="meter"/>
       <Processor id="50324" name="Piano Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Piano Bus" type="main-outs" role="Main">
@@ -7609,7 +7640,7 @@
         <Controllable name="trimcontrol" id="33027" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="33051" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="33025" flags="" value="0.100000001490"/>
+        <Controllable name="gaincontrol" id="33025" flags="" value="0.323593646288"/>
       </Processor>
       <Processor id="638503" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7704,7 +7735,7 @@
         <Controllable name="trimcontrol" id="1057296" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="1057320" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="1057294" flags="GainLike" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="1057294" flags="GainLike" value="0.323993176222"/>
       </Processor>
       <Processor id="1057347" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7799,7 +7830,7 @@
         <Controllable name="trimcontrol" id="33134" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="33158" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="33132" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="33132" flags="" value="0.323993176222"/>
       </Processor>
       <Processor id="659295" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7894,7 +7925,7 @@
         <Controllable name="trimcontrol" id="745207" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745208" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745209" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="745209" flags="" value="0.323993176222"/>
       </Processor>
       <Processor id="745246" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7989,7 +8020,7 @@
         <Controllable name="trimcontrol" id="745312" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745313" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745314" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="745314" flags="" value="0.323993176222"/>
       </Processor>
       <Processor id="745351" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8084,7 +8115,7 @@
         <Controllable name="trimcontrol" id="745417" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745418" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745419" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="745419" flags="" value="0.323993176222"/>
       </Processor>
       <Processor id="745456" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8111,8 +8142,8 @@
           <Port symbol="roomLength" value="+25.000000"/>
           <Port symbol="roomWidth" value="+30.000000"/>
           <Port symbol="roomHeight" value="+10.000000"/>
-          <Port symbol="sourceLR" value="+0.537931"/>
-          <Port symbol="sourceFB" value="+0.575548"/>
+          <Port symbol="sourceLR" value="+0.634483"/>
+          <Port symbol="sourceFB" value="+0.571771"/>
           <Port symbol="listLR" value="+0.010000"/>
           <Port symbol="listFB" value="+0.200000"/>
           <Port symbol="hpf" value="+1000.000000"/>
@@ -8123,8 +8154,8 @@
         <Controllable name="Room Length" id="745446" flags="" value="25.000000000000" parameter="1" symbol="roomLength"/>
         <Controllable name="Room Width" id="745447" flags="" value="30.000000000000" parameter="2" symbol="roomWidth"/>
         <Controllable name="Room Height" id="745448" flags="" value="10.000000000000" parameter="3" symbol="roomHeight"/>
-        <Controllable name="Source Pan" id="745449" flags="" value="0.537931025028" parameter="4" symbol="sourceLR"/>
-        <Controllable name="Source (F/B)" id="745450" flags="" value="0.575547993183" parameter="5" symbol="sourceFB"/>
+        <Controllable name="Source Pan" id="745449" flags="" value="0.634482741356" parameter="4" symbol="sourceLR"/>
+        <Controllable name="Source (F/B)" id="745450" flags="" value="0.571770548820" parameter="5" symbol="sourceFB"/>
         <Controllable name="Listener Pan" id="745451" flags="" value="0.009999999776" parameter="6" symbol="listLR"/>
         <Controllable name="Listener (F/B)" id="745452" flags="" value="0.200000002980" parameter="7" symbol="listFB"/>
         <Controllable name="HPF" id="745453" flags="" value="1000.000000000000" parameter="8" symbol="hpf"/>
@@ -8179,7 +8210,7 @@
         <Controllable name="trimcontrol" id="745522" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745523" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745524" flags="" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="745524" flags="" value="0.225680738688"/>
       </Processor>
       <Processor id="745561" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8292,7 +8323,7 @@
         <Controllable name="trimcontrol" id="899382" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="899406" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="899380" flags="GainLike" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="899380" flags="GainLike" value="0.382368683815"/>
       </Processor>
       <Processor id="1106750" name="Master-2" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="1" selfdestruct="no">
         <IO name="Master-2" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8315,7 +8346,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.100000001490"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.562341332436"/>
         </Processor>
       </Processor>
       <Processor id="1106704" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
@@ -8423,7 +8454,7 @@
         <Controllable name="trimcontrol" id="899424" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="899448" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="899422" flags="GainLike" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="899422" flags="GainLike" value="0.447403490543"/>
       </Processor>
       <Processor id="1106785" name="Master-3" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="2" selfdestruct="no">
         <IO name="Master-3" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8446,7 +8477,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.100000001490"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.398107171059"/>
         </Processor>
       </Processor>
       <Processor id="1106592" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
@@ -8558,7 +8589,7 @@
         <Controllable name="trimcontrol" id="977770" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="977771" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="977772" flags="GainLike" value="1.000000119209"/>
+        <Controllable name="gaincontrol" id="977772" flags="GainLike" value="0.447403490543"/>
       </Processor>
       <Processor id="1106819" name="Master-4" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="3" selfdestruct="no">
         <IO name="Master-4" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8581,7 +8612,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.100000001490"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.281838297844"/>
         </Processor>
       </Processor>
       <Processor id="1106727" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
@@ -8691,7 +8722,7 @@
         <Controllable name="trimcontrol" id="1106412" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="1106413" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="1106414" flags="GainLike" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="1106414" flags="GainLike" value="0.447403490543"/>
       </Processor>
       <Processor id="1106853" name="Master-5" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="4" selfdestruct="no">
         <IO name="Master-5" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8714,7 +8745,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.316227763891"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.242228880525"/>
         </Processor>
       </Processor>
       <Processor id="1106449" name="meter-Delay 2" active="yes" user-latency="0" type="meter"/>
@@ -8732,7 +8763,7 @@
       <Slavable/>
     </Route>
     <Route id="638586" name="Concert Hall Reverb" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="94" flags="AudioBus,Selected,OrderSet" color="2642863615"/>
+      <PresentationInfo order="94" flags="AudioBus,OrderSet" color="2642863615"/>
       <Controllable name="solo" id="638620" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="638621" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="638622" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8775,7 +8806,7 @@
         <Controllable name="trimcontrol" id="638602" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="638603" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="638604" flags="" value="0.177827939391"/>
+        <Controllable name="gaincontrol" id="638604" flags="" value="0.287164747715"/>
       </Processor>
       <Processor id="1150460" name="Invada Low Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/lpf/stereo" count="1" custom="no">
         <ConfiguredInput>
@@ -8799,12 +8830,12 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
           <Port symbol="bypass" value="+0.000000"/>
-          <Port symbol="freq" value="+1000.000000"/>
+          <Port symbol="freq" value="+1202.965454"/>
           <Port symbol="gain" value="+0.000000"/>
           <Port symbol="noClip" value="+1.000000"/>
         </lv2>
         <Controllable name="Bypass" id="1150462" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
-        <Controllable name="Frequency" id="1150464" flags="" value="1000.000000000000" parameter="1" symbol="freq"/>
+        <Controllable name="Frequency" id="1150464" flags="" value="1202.965454101562" parameter="1" symbol="freq"/>
         <Controllable name="Gain" id="1150466" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
         <Controllable name="Soft Clip" id="1150468" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
       </Processor>
@@ -8829,23 +8860,23 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port symbol="decay" value="+3000.000000"/>
+          <Port symbol="decay" value="+5000.000000"/>
           <Port symbol="drylevel" value="-70.000000"/>
           <Port symbol="wetlevel" value="+0.000000"/>
           <Port symbol="combs_en" value="+1.000000"/>
           <Port symbol="allps_en" value="+1.000000"/>
           <Port symbol="bandpass_en" value="+1.000000"/>
           <Port symbol="stereo_enh" value="+1.000000"/>
-          <Port symbol="mode" value="+14.000000"/>
+          <Port symbol="mode" value="+16.000000"/>
         </lv2>
-        <Controllable name="Decay" id="1106542" flags="" value="3000.000000000000" parameter="0" symbol="decay"/>
+        <Controllable name="Decay" id="1106542" flags="" value="5000.000000000000" parameter="0" symbol="decay"/>
         <Controllable name="Dry Level" id="1106544" flags="" value="-70.000000000000" parameter="1" symbol="drylevel"/>
         <Controllable name="Wet Level" id="1106546" flags="" value="0.000000000000" parameter="2" symbol="wetlevel"/>
         <Controllable name="Comb Filters" id="1106548" flags="Toggle" value="1.000000000000" parameter="3" symbol="combs_en"/>
         <Controllable name="Allpass Filters" id="1106550" flags="Toggle" value="1.000000000000" parameter="4" symbol="allps_en"/>
         <Controllable name="Bandpass Filter" id="1106552" flags="Toggle" value="1.000000000000" parameter="5" symbol="bandpass_en"/>
         <Controllable name="Enhanced Stereo" id="1106554" flags="Toggle" value="1.000000000000" parameter="6" symbol="stereo_enh"/>
-        <Controllable name="Reverb Type" id="1106556" flags="" value="14.000000000000" parameter="7" symbol="mode"/>
+        <Controllable name="Reverb Type" id="1106556" flags="" value="16.000000000000" parameter="7" symbol="mode"/>
       </Processor>
       <Processor id="638612" name="meter-Bus 3" active="yes" user-latency="0" type="meter"/>
       <Processor id="638613" name="Concert Hall Reverb" active="yes" user-latency="0" own-input="yes" own-output="no" output="Concert Hall Reverb" type="main-outs" role="Main">
@@ -9007,12 +9038,12 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="45" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="44" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="46" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="45" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -9049,7 +9080,7 @@
       <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-connection-manager" visible="no" x-off="0" y-off="0" x-size="1536" y-size="864"/>
-      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="559" y-size="864"/>
+      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="559" y-size="449"/>
       <Window name="RPM-133964" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-38675" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-590972" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9156,18 +9187,6 @@
       <Window name="PM-133994-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133996-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133997-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-51644-51680" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51644-51675" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51644-51674" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51644-1057654" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51644-51676" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51644-51677" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-51680-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-51675-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-51674-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057654-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-51676-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-51677-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-38675-38705" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38675-38707" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38675-38708" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9496,13 +9515,13 @@
       <Window name="PM-737404-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-737405-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-737406-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-40696-40728" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-40696-40726" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-40696-899143" visible="no" x-off="0" y-off="0" x-size="583" y-size="425" custom-ui="no"/>
+      <Window name="P-40696-40728" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-40696-40729" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-40728-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-40726-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899143-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-40728-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-40729-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-739643-739651" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-739643-739704" visible="no" x-off="0" y-off="0" x-size="583" y-size="425" custom-ui="no"/>
@@ -9771,11 +9790,13 @@
       <Window name="P-50291-50327" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50322" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50321" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-50291-1288235" visible="no" x-off="0" y-off="101" x-size="463" y-size="53" custom-ui="no"/>
       <Window name="P-50291-50323" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50324" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-50327-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50322-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50321-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1288235-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50323-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50324-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-899310-899324" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9862,6 +9883,18 @@
       <Window name="PM-1057721-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50911-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50912-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-51644-51680" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51644-51675" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51644-51674" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51644-1057654" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51644-51676" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51644-51677" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-51680-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-51675-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-51674-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1057654-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-51676-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-51677-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-50921-50957" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50921-50952" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50921-50951" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9913,7 +9946,7 @@
       <Window name="P-1057290-1057326" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1057290-1057321" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1057290-1057320" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057347" visible="no" x-off="0" y-off="98" x-size="463" y-size="53" custom-ui="yes"/>
+      <Window name="P-1057290-1057347" visible="no" x-off="0" y-off="98" x-size="463" y-size="53" custom-ui="no"/>
       <Window name="P-1057290-1057322" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1057290-1057323" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-1057326-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9949,7 +9982,7 @@
       <Window name="P-745296-745310" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745311" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745313" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-745296-745351" visible="no" x-off="0" y-off="103" x-size="463" y-size="53" custom-ui="no"/>
+      <Window name="P-745296-745351" visible="no" x-off="625" y-off="161" x-size="463" y-size="53" custom-ui="yes"/>
       <Window name="P-745296-745352" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745353" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-745310-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9961,7 +9994,7 @@
       <Window name="P-745401-745415" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745416" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745418" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-745401-745456" visible="no" x-off="0" y-off="103" x-size="463" y-size="53" custom-ui="no"/>
+      <Window name="P-745401-745456" visible="no" x-off="1306" y-off="165" x-size="463" y-size="53" custom-ui="yes"/>
       <Window name="P-745401-745457" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745458" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-745415-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9986,7 +10019,7 @@
       <Window name="P-899376-899407" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-899406" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-1106750" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
-      <Window name="P-899376-1106704" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-899376-1106704" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="no"/>
       <Window name="P-899376-899408" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-899409" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-899412-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10014,7 +10047,7 @@
       <Window name="P-977754-977769" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-977771" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-1106819" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
-      <Window name="P-977754-1106727" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="yes"/>
+      <Window name="P-977754-1106727" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="no"/>
       <Window name="P-977754-977807" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-977808" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-977768-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10039,12 +10072,14 @@
       <Window name="P-638586-638600" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638601" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638603" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-638586-1106540" visible="no" x-off="0" y-off="5" x-size="583" y-size="240" custom-ui="yes"/>
+      <Window name="P-638586-1150460" visible="no" x-off="0" y-off="105" x-size="463" y-size="53" custom-ui="yes"/>
+      <Window name="P-638586-1106540" visible="no" x-off="0" y-off="11" x-size="583" y-size="240" custom-ui="yes"/>
       <Window name="P-638586-638612" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638613" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-638600-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638601-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638603-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1150460-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106540-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638612-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638613-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10056,8 +10091,6 @@
       <Window name="PM-5263-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5265-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5266-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-638586-1150460" visible="no" x-off="0" y-off="99" x-size="463" y-size="53" custom-ui="yes"/>
-      <Window name="PM-1150460-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 5233" height="29" visible="1"/>
         <Object id="automation 5237" height="31" visible="0"/>
@@ -10481,35 +10514,35 @@
           <Object id="processor 49554"/>
           <Object id="processor 49645"/>
         </Object>
-        <Object id="rtav 49675" height="29" visible="0"/>
+        <Object id="rtav 49675" height="29" visible="1"/>
         <Object id="automation 49679" height="31" visible="0"/>
         <Object id="automation 49681" height="31" visible="0"/>
         <Object id="automation 49675 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49716" height="29" visible="0"/>
+        <Object id="rtav 49716" height="29" visible="1"/>
         <Object id="automation 49720" height="31" visible="0"/>
         <Object id="automation 49722" height="31" visible="0"/>
         <Object id="automation 49716 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49757" height="29" visible="0"/>
+        <Object id="rtav 49757" height="29" visible="1"/>
         <Object id="automation 49761" height="31" visible="0"/>
         <Object id="automation 49763" height="31" visible="0"/>
         <Object id="automation 49757 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49798" height="29" visible="0"/>
+        <Object id="rtav 49798" height="29" visible="1"/>
         <Object id="automation 49802" height="31" visible="0"/>
         <Object id="automation 49804" height="31" visible="0"/>
         <Object id="automation 49798 12/0/0" height="31" visible="0"/>
-        <Object id="strip 49675" strip-width="Wide" visible="0">
+        <Object id="strip 49675" strip-width="Wide" visible="1">
           <Object id="processor 49705"/>
           <Object id="processor 49895"/>
         </Object>
-        <Object id="strip 49716" visible="0" strip-width="Wide">
+        <Object id="strip 49716" visible="1" strip-width="Wide">
           <Object id="processor 49746"/>
           <Object id="processor 49903"/>
         </Object>
-        <Object id="strip 49757" visible="0" strip-width="Wide">
+        <Object id="strip 49757" visible="1" strip-width="Wide">
           <Object id="processor 49787"/>
           <Object id="processor 49911"/>
         </Object>
-        <Object id="strip 49798" strip-width="Wide" visible="0">
+        <Object id="strip 49798" strip-width="Wide" visible="1">
           <Object id="processor 49828"/>
           <Object id="processor 49919"/>
         </Object>
@@ -10707,6 +10740,8 @@
           <Object id="processor 1057913">
             <Object id="control 1057792" visible="1"/>
           </Object>
+          <Object id="processor 1288223"/>
+          <Object id="processor 1288235"/>
         </Object>
         <Object id="strip 51089" visible="1" strip-width="Wide">
           <Object id="processor 51119"/>
@@ -10958,6 +10993,13 @@
           <Object id="processor 1150447"/>
           <Object id="processor 1150460"/>
           <Object id="processor 1150473"/>
+          <Object id="processor 1244525"/>
+          <Object id="processor 1288251"/>
+          <Object id="processor 1288265"/>
+          <Object id="processor 1288275"/>
+          <Object id="processor 1375692"/>
+          <Object id="processor 1375702"/>
+          <Object id="processor 1375711"/>
         </Object>
         <Object id="strip 590972" visible="1" strip-width="Wide">
           <Object id="processor 590980"/>
@@ -11359,6 +11401,8 @@
             <Object id="control 1106765" visible="1"/>
           </Object>
         </Object>
+        <Object id="automation 39991 13/1/7" height="62" visible="0"/>
+        <Object id="automation 681452 13/1/7" height="62" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="no"/>
