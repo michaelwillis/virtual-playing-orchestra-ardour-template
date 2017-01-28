@@ -4,11 +4,20 @@
 This is an Ardour project template for composing orchestral music, using only Linux-native plugins.
 
 ## Requirements
-This template has been tested on a rather commodity system running Ubuntu 16.04 LTS with 8GB of memory and a quad-core i5 3GHz CPU. The system monitor reports Ardour using about 2GB of memory and only moderate CPU usage with a rather full orchestral score, so it will probably work with 4GB of memory and a much less powerful CPU.
+This template has been tested with:
+* Ubuntu 16.04 LTS
+* 8GB memory
+* Quad-core i5 3GHz CPU
 
-It will also probably work with other similar debian-based flavors of Linux that have been properly configured for audio production, including AVLinux, KX Studio, and Ubuntu Studio.
+The system monitor reports Ardour using about 2GB of memory and only moderate CPU usage with a rather full orchestral score, so it will probably work with 4GB of memory and a much less powerful CPU.
 
-Setup and usage of the template requires a working knowledge of Ardour and at least a cursory knowledge of the terminal and filesystem on Linux.
+It will probably easily work with audio-centric Debian-based flavors of Linux, including AVLinux, KX Studio, and Ubuntu Studio.
+
+### Assumptions
+
+* A working Linux system, properly configured for audio production
+* Knowledge of how to use Ardour
+* Understanding of Linux terminal and filesystem
 
 ### Software 
 
@@ -16,9 +25,10 @@ This project template uses the following software:
 
 * [Ardour 5.5+](http://ardour.org/)
 * [LinuxSampler](https://linuxsampler.org/)
-* [x42 Midi Channel Map](http://x42-plugins.com)
-* [Invada Early Reflection Reverb and Low Pass Filter](https://launchpad.net/invada-studio)
-* [TAP Reverberator](http://tap-plugins.sourceforge.net/)
+* [x42 Midi Channel Map](http://x42-plugins.com/x42/x42-midifilter)
+* [Invada Early Reflection Reverb](https://launchpad.net/invada-studio)
+* [Invada Low Pass Filter](https://launchpad.net/invada-studio)
+* [TAP Reverberator](http://tap-plugins.sourceforge.net/ladspa/reverb.html)
 * [Virtual Playing Orchestra](http://virtualplaying.com/)
 * [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html)
 
@@ -39,7 +49,7 @@ sudo unrar x Maestro-Concert-Grandv2.rar /opt/maestro-concert-grand/
 
 ## Using the template
 
-The template is all contained in one file. Download `virtual-playing-orchestra-template` from this project and open it in Ardour.
+The template is all contained in one file. Download `virtual-playing-orchestra-template.ardour` from this project and open it in Ardour.
 
 The project shows a minimal set of midi tracks and a small number of busses. There is one midi track for each section of the orchestra. Almost every instrument section has additional hidden tracks for solos and articulations. You can view any track by going to the mixer and putting a checkmark under "Show" in the left sidebar.
 
@@ -61,7 +71,11 @@ Each midi track routes into one of four LinuxSampler plugin instances, which the
 
 Almost all audio busses are not shown by default, to hide most of the complexity. If you want to add plugins or otherwise adjust the audio output of a given section, each instrument section has a corresponding hidden audio bus, with the suffix "Bus" to distinguish it from the midi track.
 
-Panning and stereo width are set on the hidden audio busses corresponding to each section. All of these busses are routed into four visible busses called "Row 1", "Row 2", "Row 3", and "Row 4".
+### Stage Presence
+
+Panning and stereo width are set on the hidden audio busses corresponding to each section. All of these busses are routed into four visible busses called "Row 1", "Row 2", "Row 3", and "Row 4". Each row is set up for different stage depth. Each has volume-adjusted routing to both the master bus and the concert hall reverb bus. Rows 1, 2, and 3 have delays before the reverb.
+
+For additional frontal stage presence, instruments in rows 1 and 2 each have a subtle amount of audio routed to individualized early reflection reverb busses.
 
 ### LinuxSampler Configuration
 
