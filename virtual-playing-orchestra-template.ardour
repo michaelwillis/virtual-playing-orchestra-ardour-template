@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1419540" name-counter="2" event-counter="3340925" vca-counter="1">
+<Session version="3002" name="virtual-playing-orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1463353" name-counter="2" event-counter="3340927" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.3-4-gb7e8d6f" modified-with="Ardour 5.5"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -65,8 +65,8 @@
   </Config>
   <Metadata/>
   <Sources>
-    <Source name="Cello-2.mid" type="midi" flags="Writable,CanRename" id="1068761" captured-for="Cello" origin=""/>
-    <Source name="Cello-1.mid" type="midi" flags="Writable,CanRename" id="1106189" origin=""/>
+    <Source name="Cello-2.mid" type="midi" flags="Writable,CanRename" id="1068761" captured-for="Cello" origin="Cello-2.mid"/>
+    <Source name="Cello-1.mid" type="midi" flags="Writable,CanRename" id="1106189" origin="Cello-1.mid"/>
   </Sources>
   <Regions>
     <Region name="Cello-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="672000" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28" id="1106191" type="midi" first-edit="nothing" source-0="1106189" master-source-0="1106189"/>
@@ -80,7 +80,7 @@
   <VCAManager/>
   <Routes>
     <Route id="133964" name="Midi In" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="0" flags="MidiBus,OrderSet" color="3849505535"/>
+      <PresentationInfo order="0" flags="MidiBus,Selected,OrderSet" color="3849505535"/>
       <Controllable name="solo" id="429760" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="429766" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="429768" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -91,7 +91,7 @@
       </IO>
       <IO name="Midi In" id="133993" direction="Output" default-type="audio" user-latency="0">
         <Port type="midi" name="Midi In/midi_out 1">
-          <Connection other="Misc Percussion/midi_in 1"/>
+          <Connection other="Piano/midi_in 1"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
@@ -1809,9 +1809,7 @@
       <Controllable name="solo-iso" id="595106" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="595107" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Misc Percussion" id="595094" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Misc Percussion/midi_in 1">
-          <Connection other="Midi In/midi_out 1"/>
-        </Port>
+        <Port type="midi" name="Misc Percussion/midi_in 1"/>
       </IO>
       <IO name="Misc Percussion" id="595095" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Misc Percussion/midi_out 1">
@@ -2405,7 +2403,9 @@
       <Controllable name="solo-iso" id="430924" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="430926" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Piano" id="39878" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Piano/midi_in 1"/>
+        <Port type="midi" name="Piano/midi_in 1">
+          <Connection other="Midi In/midi_out 1"/>
+        </Port>
       </IO>
       <IO name="Piano" id="39879" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Piano/midi_out 1">
@@ -5250,7 +5250,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
-          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9waWNjb2xvLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMCAxIC0yIFNGWgoxIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9mbHV0ZS1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIgMyAtMiBTRloKMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9Xb29kd2luZHMvZmx1dGUtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIAotMSAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAKLTEgMCAwIDEwIDExIC0yIFNGWgo2IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9vYm9lLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTIgMTMgLTIgU0ZaCjcgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvV29vZHdpbmRzL29ib2UtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9lbmdsaXNoLWhvcm4tU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIAotMSAwIDAgMTggMTkgLTIgU0ZaCjEwIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9jbGFyaW5ldC1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIwIDIxIC0yIFNGWgoxMSAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9Xb29kd2luZHMvY2xhcmluZXQtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIyIDIzIC0yIFNGWgoxMiAxIAotMSAwIDAgMjQgMjUgLTIgU0ZaCjEzIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9iYXNzb29uLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMjYgMjcgLTIgU0ZaCjE0IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9iYXNzb29uLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyOCAyOSAtMiBTRloKMTUgMSAKLTEgMCAwIDMwIDMxIC0yIFNGWgoA</chunk>
+          <chunk>MC4zNQowIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9waWNjb2xvLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMCAxIC0yIFNGWgoxIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9mbHV0ZS1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIgMyAtMiBTRloKMiAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9Xb29kd2luZHMvZmx1dGUtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIAotMSAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAKLTEgMCAwIDEwIDExIC0yIFNGWgo2IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9vYm9lLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTIgMTMgLTIgU0ZaCjcgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvV29vZHdpbmRzL29ib2UtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9lbmdsaXNoLWhvcm4tU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIAotMSAwIDAgMTggMTkgLTIgU0ZaCjEwIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9jbGFyaW5ldC1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIwIDIxIC0yIFNGWgoxMSAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9Xb29kd2luZHMvY2xhcmluZXQtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIyIDIzIC0yIFNGWgoxMiAxIAotMSAwIDAgMjQgMjUgLTIgU0ZaCjEzIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9iYXNzb29uLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMjYgMjcgLTIgU0ZaCjE0IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1dvb2R3aW5kcy9iYXNzb29uLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyOCAyOSAtMiBTRloKMTUgMSAKLTEgMCAwIDMwIDMxIC0yIFNGWgoA</chunk>
         </lxvst>
       </Processor>
       <Processor id="49705" name="Amp" active="yes" user-latency="0" type="amp">
@@ -5455,7 +5455,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
-          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL2ZyZW5jaC1ob3JuLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMCAxIC0yIFNGWgoxIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL2ZyZW5jaC1ob3JuLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyIDMgLTIgU0ZaCjIgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJ1bXBldC1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9CcmFzcy90cnVtcGV0LVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCA2IDcgLTIgU0ZaCjQgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJvbWJvbmUtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCA4IDkgLTIgU0ZaCjUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJvbWJvbmUtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDEwIDExIC0yIFNGWgo2IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL3R1YmEtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIAotMSAwIDAgMTQgMTUgLTIgU0ZaCjggMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvUGVyY3Vzc2lvbi9iYXNzZHJ1bS1zbmFyZS1jeW1iYWxzLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL21pc2Muc2Z6CjAgMCAwIDE4IDE5IC0yIFNGWgoxMCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL2dsb2NrZW5zcGllbC5zZnoKMCAwIDAgMjAgMjEgLTIgU0ZaCjExIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1BlcmN1c3Npb24veHlsb3Bob25lLnNmegowIDAgMCAyMiAyMyAtMiBTRloKMTIgMSAKLTEgMCAwIDI0IDI1IC0yIFNGWgoxMyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL3R1YnVsYXItYmVsbHMuc2Z6CjAgMCAwIDI2IDI3IC0yIFNGWgoxNCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL3RpbXBhbmktaGl0LnNmegowIDAgMCAyOCAyOSAtMiBTRloKMTUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvUGVyY3Vzc2lvbi90aW1wYW5pLXJvbGwuc2Z6CjAgMCAwIDMwIDMxIC0yIFNGWgoA</chunk>
+          <chunk>MC4zNQowIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL2ZyZW5jaC1ob3JuLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMCAxIC0yIFNGWgoxIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL2ZyZW5jaC1ob3JuLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyIDMgLTIgU0ZaCjIgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJ1bXBldC1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9CcmFzcy90cnVtcGV0LVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCA2IDcgLTIgU0ZaCjQgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJvbWJvbmUtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCA4IDkgLTIgU0ZaCjUgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvQnJhc3MvdHJvbWJvbmUtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDEwIDExIC0yIFNGWgo2IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL0JyYXNzL3R1YmEtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIAotMSAwIDAgMTQgMTUgLTIgU0ZaCjggMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvUGVyY3Vzc2lvbi9iYXNzZHJ1bS1zbmFyZS1jeW1iYWxzLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL21pc2Muc2Z6CjAgMCAwIDE4IDE5IC0yIFNGWgoxMCAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL2dsb2NrZW5zcGllbC5zZnoKMCAwIDAgMjAgMjEgLTIgU0ZaCjExIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1BlcmN1c3Npb24veHlsb3Bob25lLnNmegowIDAgMCAyMiAyMyAtMiBTRloKMTIgMSAKLTEgMCAwIDI0IDI1IC0yIFNGWgoxMyAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL3R1YnVsYXItYmVsbHMuc2Z6CjAgMCAwIDI2IDI3IC0yIFNGWgoxNCAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9QZXJjdXNzaW9uL3RpbXBhbmktaGl0LnNmegowIDAgMCAyOCAyOSAtMiBTRloKMTUgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvUGVyY3Vzc2lvbi90aW1wYW5pLXJvbGwuc2Z6CjAgMCAwIDMwIDMxIC0yIFNGWgoA</chunk>
         </lxvst>
       </Processor>
       <Processor id="49746" name="Amp" active="yes" user-latency="0" type="amp">
@@ -5654,7 +5654,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
-          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9tYWVzdHJvLWNvbmNlcnQtZ3JhbmQvbWFlc3Ryb19jb25jZXJ0X2dyYW5kX3YyLmdpZwowIDAgMCAwIDEgLTIgR0lHCjEgMSAKLTEgMCAwIDIgMyAtMiBTRloKMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2hhcnAtc3VzdGFpbi5zZnoKMCAwIDAgNCA1IC0yIFNGWgozIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvaGFycC1kYW1wZW5lZC5zZnoKMCAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTAgMTEgLTIgU0ZaCjYgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMXN0LXZpb2xpbi1TRUMtcGl6emljYXRvLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDE4IDE5IC0yIFNGWgoxMCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyMCAyMSAtMiBTRloKMTEgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAyMiAyMyAtMiBTRloKMTIgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyNCAyNSAtMiBTRloKMTMgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1waXp6aWNhdG8uc2Z6CjAgMCAwIDI2IDI3IC0yIFNGWgoxNCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDI4IDI5IC0yIFNGWgoxNSAxIAotMSAwIDAgMzAgMzEgLTIgU0ZaCgA=</chunk>
+          <chunk>MC4zNQowIDEgL29wdC9tYWVzdHJvLWNvbmNlcnQtZ3JhbmQvbWFlc3Ryb19jb25jZXJ0X2dyYW5kX3YyLmdpZwowIDAgMCAwIDEgLTIgR0lHCjEgMSAKLTEgMCAwIDIgMyAtMiBTRloKMiAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2hhcnAtc3VzdGFpbi5zZnoKMCAwIDAgNCA1IC0yIFNGWgozIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvaGFycC1kYW1wZW5lZC5zZnoKMCAwIDAgNiA3IC0yIFNGWgo0IDEgCi0xIDAgMCA4IDkgLTIgU0ZaCjUgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tbm9ybWFsLW1vZC13aGVlbC5zZnoKMCAwIDAgMTAgMTEgLTIgU0ZaCjYgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8xc3QtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAxMiAxMyAtMiBTRloKNyAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvMXN0LXZpb2xpbi1TRUMtcGl6emljYXRvLnNmegowIDAgMCAxNiAxNyAtMiBTRloKOSAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzFzdC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDE4IDE5IC0yIFNGWgoxMCAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyMCAyMSAtMiBTRloKMTEgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNPTE8tcGl6emljYXRvLnNmegowIDAgMCAyMiAyMyAtMiBTRloKMTIgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAyNCAyNSAtMiBTRloKMTMgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy8ybmQtdmlvbGluLVNFQy1waXp6aWNhdG8uc2Z6CjAgMCAwIDI2IDI3IC0yIFNGWgoxNCAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzLzJuZC12aW9saW4tU0VDLXRyZW1vbG8uc2Z6CjAgMCAwIDI4IDI5IC0yIFNGWgoxNSAxIAotMSAwIDAgMzAgMzEgLTIgU0ZaCgA=</chunk>
         </lxvst>
       </Processor>
       <Processor id="49787" name="Amp" active="yes" user-latency="0" type="amp">
@@ -5861,7 +5861,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
-          <chunk>MC4zNQowIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvdmlvbGEtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAwIDEgLTIgU0ZaCjEgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy92aW9sYS1TT0xPLXBpenppY2F0by5zZnoKMCAwIDAgMiAzIC0yIFNGWgoyIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvdmlvbGEtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL3Zpb2xhLVNFQy1waXp6aWNhdG8uc2Z6CjAgMCAwIDYgNyAtMiBTRloKNCAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL3Zpb2xhLVNFQy10cmVtb2xvLnNmegowIDAgMCA4IDkgLTIgU0ZaCjUgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy9jZWxsby1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDEwIDExIC0yIFNGWgo2IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU09MTy1waXp6aWNhdG8uc2Z6CjAgMCAwIDEyIDEzIC0yIFNGWgo3IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU0VDLXBpenppY2F0by5zZnoKMCAwIDAgMTYgMTcgLTIgU0ZaCjkgMSAvaG9tZS9taWNoYWVsL011c2ljL0luc3RydW1lbnRzL1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy9jZWxsby1TRUMtdHJlbW9sby5zZnoKMCAwIDAgMTggMTkgLTIgU0ZaCjEwIDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvYmFzcy1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIwIDIxIC0yIFNGWgoxMSAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU09MTy1waXp6aWNhdG8uc2Z6CjAgMCAwIDIyIDIzIC0yIFNGWgoxMiAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDI0IDI1IC0yIFNGWgoxMyAxIC9ob21lL21pY2hhZWwvTXVzaWMvSW5zdHJ1bWVudHMvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU0VDLXBpenppY2F0by5zZnoKMCAwIDAgMjYgMjcgLTIgU0ZaCjE0IDEgL2hvbWUvbWljaGFlbC9NdXNpYy9JbnN0cnVtZW50cy9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvYmFzcy1TRUMtdHJlbW9sby5zZnoKMCAwIDAgMjggMjkgLTIgU0ZaCjE1IDEgCi0xIDAgMCAzMCAzMSAtMiBTRloKAA==</chunk>
+          <chunk>MC4zNQowIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvdmlvbGEtU09MTy1ub3JtYWwtbW9kLXdoZWVsLnNmegowIDAgMCAwIDEgLTIgU0ZaCjEgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy92aW9sYS1TT0xPLXBpenppY2F0by5zZnoKMCAwIDAgMiAzIC0yIFNGWgoyIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvdmlvbGEtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDQgNSAtMiBTRloKMyAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL3Zpb2xhLVNFQy1waXp6aWNhdG8uc2Z6CjAgMCAwIDYgNyAtMiBTRloKNCAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL3Zpb2xhLVNFQy10cmVtb2xvLnNmegowIDAgMCA4IDkgLTIgU0ZaCjUgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy9jZWxsby1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDEwIDExIC0yIFNGWgo2IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU09MTy1waXp6aWNhdG8uc2Z6CjAgMCAwIDEyIDEzIC0yIFNGWgo3IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDE0IDE1IC0yIFNGWgo4IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvY2VsbG8tU0VDLXBpenppY2F0by5zZnoKMCAwIDAgMTYgMTcgLTIgU0ZaCjkgMSAvb3B0L1ZpcnR1YWwtUGxheWluZy1PcmNoZXN0cmEvU3RyaW5ncy9jZWxsby1TRUMtdHJlbW9sby5zZnoKMCAwIDAgMTggMTkgLTIgU0ZaCjEwIDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvYmFzcy1TT0xPLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDIwIDIxIC0yIFNGWgoxMSAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU09MTy1waXp6aWNhdG8uc2Z6CjAgMCAwIDIyIDIzIC0yIFNGWgoxMiAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU0VDLW5vcm1hbC1tb2Qtd2hlZWwuc2Z6CjAgMCAwIDI0IDI1IC0yIFNGWgoxMyAxIC9vcHQvVmlydHVhbC1QbGF5aW5nLU9yY2hlc3RyYS9TdHJpbmdzL2Jhc3MtU0VDLXBpenppY2F0by5zZnoKMCAwIDAgMjYgMjcgLTIgU0ZaCjE0IDEgL29wdC9WaXJ0dWFsLVBsYXlpbmctT3JjaGVzdHJhL1N0cmluZ3MvYmFzcy1TRUMtdHJlbW9sby5zZnoKMCAwIDAgMjggMjkgLTIgU0ZaCjE1IDEgCi0xIDAgMCAzMCAzMSAtMiBTRloKAA==</chunk>
         </lxvst>
       </Processor>
       <Processor id="49828" name="Amp" active="yes" user-latency="0" type="amp">
@@ -8154,8 +8154,8 @@
         <Controllable name="Room Length" id="745446" flags="" value="25.000000000000" parameter="1" symbol="roomLength"/>
         <Controllable name="Room Width" id="745447" flags="" value="30.000000000000" parameter="2" symbol="roomWidth"/>
         <Controllable name="Room Height" id="745448" flags="" value="10.000000000000" parameter="3" symbol="roomHeight"/>
-        <Controllable name="Source Pan" id="745449" flags="" value="0.634482741356" parameter="4" symbol="sourceLR"/>
-        <Controllable name="Source (F/B)" id="745450" flags="" value="0.571770548820" parameter="5" symbol="sourceFB"/>
+        <Controllable name="Source Pan" id="745449" flags="" value="0.634482979774" parameter="4" symbol="sourceLR"/>
+        <Controllable name="Source (F/B)" id="745450" flags="" value="0.571771025658" parameter="5" symbol="sourceFB"/>
         <Controllable name="Listener Pan" id="745451" flags="" value="0.009999999776" parameter="6" symbol="listLR"/>
         <Controllable name="Listener (F/B)" id="745452" flags="" value="0.200000002980" parameter="7" symbol="listFB"/>
         <Controllable name="HPF" id="745453" flags="" value="1000.000000000000" parameter="8" symbol="hpf"/>
@@ -9187,6 +9187,20 @@
       <Window name="PM-133994-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133996-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133997-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-977754-977768" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-977754-977769" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-977754-977771" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-977754-1106819" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="no"/>
+      <Window name="P-977754-1106727" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="no"/>
+      <Window name="P-977754-977807" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-977754-977808" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-977768-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-977769-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-977771-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1106819-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1106727-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-977807-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-977808-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-38675-38705" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38675-38707" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38675-38708" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9982,7 +9996,7 @@
       <Window name="P-745296-745310" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745311" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745313" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-745296-745351" visible="no" x-off="625" y-off="161" x-size="463" y-size="53" custom-ui="yes"/>
+      <Window name="P-745296-745351" visible="no" x-off="625" y-off="161" x-size="463" y-size="53" custom-ui="no"/>
       <Window name="P-745296-745352" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745296-745353" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-745310-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9994,7 +10008,7 @@
       <Window name="P-745401-745415" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745416" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745418" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-745401-745456" visible="no" x-off="1306" y-off="165" x-size="463" y-size="53" custom-ui="yes"/>
+      <Window name="P-745401-745456" visible="no" x-off="1306" y-off="165" x-size="463" y-size="53" custom-ui="no"/>
       <Window name="P-745401-745457" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-745401-745458" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-745415-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10018,7 +10032,7 @@
       <Window name="P-899376-899412" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-899407" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-899406" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-899376-1106750" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
+      <Window name="P-899376-1106750" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="no"/>
       <Window name="P-899376-1106704" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="no"/>
       <Window name="P-899376-899408" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899376-899409" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -10032,7 +10046,7 @@
       <Window name="P-899418-899454" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899418-899449" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899418-899448" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-899418-1106785" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
+      <Window name="P-899418-1106785" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="no"/>
       <Window name="P-899418-1106592" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899418-899450" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899418-899451" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -10043,24 +10057,10 @@
       <Window name="PM-1106592-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899450-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899451-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-977754-977768" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-977754-977769" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-977754-977771" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-977754-1106819" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
-      <Window name="P-977754-1106727" visible="no" x-off="0" y-off="0" x-size="767" y-size="434" custom-ui="no"/>
-      <Window name="P-977754-977807" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-977754-977808" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-977768-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-977769-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-977771-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1106819-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1106727-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-977807-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-977808-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1106396-1106410" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106411" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106413" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1106396-1106853" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="yes"/>
+      <Window name="P-1106396-1106853" visible="no" x-off="0" y-off="0" x-size="424" y-size="864" custom-ui="no"/>
       <Window name="P-1106396-1106449" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106450" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-1106410-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10072,8 +10072,8 @@
       <Window name="P-638586-638600" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638601" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638603" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-638586-1150460" visible="no" x-off="0" y-off="105" x-size="463" y-size="53" custom-ui="yes"/>
-      <Window name="P-638586-1106540" visible="no" x-off="0" y-off="11" x-size="583" y-size="240" custom-ui="yes"/>
+      <Window name="P-638586-1150460" visible="no" x-off="0" y-off="105" x-size="463" y-size="53" custom-ui="no"/>
+      <Window name="P-638586-1106540" visible="no" x-off="0" y-off="11" x-size="583" y-size="240" custom-ui="no"/>
       <Window name="P-638586-638612" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638613" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-638600-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10514,19 +10514,19 @@
           <Object id="processor 49554"/>
           <Object id="processor 49645"/>
         </Object>
-        <Object id="rtav 49675" height="29" visible="1"/>
+        <Object id="rtav 49675" height="29" visible="0"/>
         <Object id="automation 49679" height="31" visible="0"/>
         <Object id="automation 49681" height="31" visible="0"/>
         <Object id="automation 49675 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49716" height="29" visible="1"/>
+        <Object id="rtav 49716" height="29" visible="0"/>
         <Object id="automation 49720" height="31" visible="0"/>
         <Object id="automation 49722" height="31" visible="0"/>
         <Object id="automation 49716 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49757" height="29" visible="1"/>
+        <Object id="rtav 49757" height="29" visible="0"/>
         <Object id="automation 49761" height="31" visible="0"/>
         <Object id="automation 49763" height="31" visible="0"/>
         <Object id="automation 49757 12/0/0" height="31" visible="0"/>
-        <Object id="rtav 49798" height="29" visible="1"/>
+        <Object id="rtav 49798" height="29" visible="0"/>
         <Object id="automation 49802" height="31" visible="0"/>
         <Object id="automation 49804" height="31" visible="0"/>
         <Object id="automation 49798 12/0/0" height="31" visible="0"/>
