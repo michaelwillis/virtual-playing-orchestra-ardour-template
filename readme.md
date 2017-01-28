@@ -53,8 +53,109 @@ Each section and solo part is given distinct stage presence with a more or less 
 
 ![Seating Chart](seating.png)
 
-### More technical details
+Some liberties were taken with the layout of the percussion, and the piano is centered instead of being on the traditional far left with the harp.
+
+## More technical details
+
+Each midi track routes into one of four LinuxSampler plugin instances, which then route to an audio bus per section/solo.
 
 Almost all audio busses are not shown by default, to hide most of the complexity. If you want to add plugins or otherwise adjust the audio output of a given section, each instrument section has a corresponding hidden audio bus, with the suffix "Bus" to distinguish it from the midi track.
 
 Panning and stereo width are set on the hidden audio busses corresponding to each section. All of these busses are routed into four visible busses called "Row 1", "Row 2", "Row 3", and "Row 4".
+
+### LinuxSampler Configuration
+
+There are four LinuxSampler Instances: Woodwinds, Brass/Percussion, Strings 1, and Strings 2.
+
+(The sections in parenthesis that say "Reserved for" are wishful thinking)
+
+<table>
+    <thead>
+        <th colspan="3">Woodwinds</th>
+    </thead>
+    <tr>
+        <th>Midi channel</th>
+        <th>Audio channels</th>
+        <th>Instrument</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1, 2</td>
+        <td>Piccolo</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3, 4</td>
+        <td>Flute</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>5, 6</td>
+        <td>Flutes</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>7, 8</td>
+        <td>Unused (Reserved for Pan Flute)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>9, 10</td>
+        <td>Unused (Reserved for Alto Flute)</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>11, 12</td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>13, 14</td>
+        <td>Oboe</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>15, 16</td>
+        <td>Oboes</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>17, 18</td>
+        <td>Cor Anglais (English Horn)</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>19, 20</td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>21, 22</td>
+        <td>Clarinet</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>23, 24</td>
+        <td>Clarinets</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>25, 26</td>
+        <td>Unused (Reserved for Bass Clarinet)</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>27, 28</td>
+        <td>Bassoon</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>29, 30</td>
+        <td>Bassoons</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>31, 32</td>
+        <td>Unused (Reserved for Contrabassoon)</td>
+    </tr>
+</table>
