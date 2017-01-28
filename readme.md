@@ -71,7 +71,7 @@ There are four LinuxSampler Instances: Woodwinds, Brass/Percussion, Strings 1, a
 
 <table>
     <thead>
-        <th colspan="3">Woodwinds</th>
+        <th colspan="3">LinuxSampler Instance #1: Woodwinds</th>
     </thead>
     <tr>
         <th>Midi channel</th>
@@ -157,5 +157,269 @@ There are four LinuxSampler Instances: Woodwinds, Brass/Percussion, Strings 1, a
         <td>16</td>
         <td>31, 32</td>
         <td>Unused (Reserved for Contrabassoon)</td>
+    </tr>
+        <thead>
+        <th colspan="3">LinuxSampler Instance #2: Brass/Percussion</th>
+    </thead>
+    <tr>
+        <th>Midi channel</th>
+        <th>Audio channels</th>
+        <th>Instrument</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1, 2</td>
+        <td>Horn</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3, 4</td>
+        <td>Horns</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>5, 6</td>
+        <td>Trumpet</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>7, 8</td>
+        <td>Trumpets</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>9, 10</td>
+        <td>Trombone</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>11, 12</td>
+        <td>Trombones</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>13, 14</td>
+        <td>Tuba</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>15, 16</td>
+        <td>Unused (Reserved for Bass Trombone or other bass brass)</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>17, 18</td>
+        <td>Bass Drum, Snares, Cymbals</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>19, 20</td>
+        <td>Misc. Percussion (Tambourine, Conga, Bell trees, etc) </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>21, 22</td>
+        <td>Glockenspiel</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>23, 24</td>
+        <td>Xylophone</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>25, 26</td>
+        <td>Unused (Reserved for Celeste or Marimba)</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>27, 28</td>
+        <td>Tubular Bells</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>29, 30</td>
+        <td>Timpani Hit</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>31, 32</td>
+        <td>Timpani Roll</td>
+    </tr>
+        <thead>
+        <th colspan="3">LinuxSampler Instance #3: Strings 1</th>
+    </thead>
+    <tr>
+        <th>Midi channel</th>
+        <th>Audio channels</th>
+        <th>Instrument</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1, 2</td>
+        <td>Grand Piano</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3, 4</td>
+        <td>Unused (Reserved for Harpsichord)</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>5, 6</td>
+        <td>Harp (Sustain)</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>7, 8</td>
+        <td>Harp (Dampened)</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>9, 10</td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>11, 12</td>
+        <td>1st Violin</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>13, 14</td>
+        <td>1st Violin Pizzicato</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>15, 16</td>
+        <td>1st Violins</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>17, 18</td>
+        <td>1st Violins Pizzicato</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>19, 20</td>
+        <td>1st Violins Tremolo</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>21, 22</td>
+        <td>2nd Violin</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>23, 24</td>
+        <td>2nd Violin Pizzicato</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>25, 26</td>
+        <td>2nd Violins</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>27, 28</td>
+        <td>2nd Violins Pizzicato</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>29, 30</td>
+        <td>2nd Violins Tremolo</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>31, 32</td>
+        <td>Unused</td>
+    </tr>
+        <thead>
+        <th colspan="3">LinuxSampler Instance #4: String 2</th>
+    </thead>
+    <tr>
+        <th>Midi channel</th>
+        <th>Audio channels</th>
+        <th>Instrument</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1, 2</td>
+        <td>Viola</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3, 4</td>
+        <td>Viola Pizzicato</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>5, 6</td>
+        <td>Violas</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>7, 8</td>
+        <td>Violas Pizzicato</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>9, 10</td>
+        <td>Violas Tremolo</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>11, 12</td>
+        <td>Cello</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>13, 14</td>
+        <td>Cello Pizzicato</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>15, 16</td>
+        <td>Cellos</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>17, 18</td>
+        <td>Cellos Pizzicato</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>19, 20</td>
+        <td>Cellos Tremolo</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>21, 22</td>
+        <td>Contrabass</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>23, 24</td>
+        <td>Contrabass Pizzicato</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>25, 26</td>
+        <td>Contrabasses</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>27, 28</td>
+        <td>Contrabasses Pizzicato</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>29, 30</td>
+        <td>Contrabasses Tremolo</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>31, 32</td>
+        <td>Unused</td>
     </tr>
 </table>
