@@ -55,7 +55,7 @@ The project shows a minimal set of midi tracks and a small number of busses. The
 
 Plural and singular names distinguish between ensemble and solo tracks. Additional articulations are indicated as a suffix on the track name. For example, "1st Violin Pizz" is a solo first violin playing pizzicato, "2nd Violins Trem" is the entire second violins section playing tremolo.
 
-There is a midi bus called "Midi In" at the top for recording convenience. Using the editor mixer sidebar on the left, you can route this channel to a given track for playing and recording. You can see at the bottom that it defaults to Piano. To play a tuba part (for example), change this to "Tuba in", play bass keys on your midi keyboard, and you should hear the tuba. To record, arm the Tuba track, click the record button and then the play button, and then play the part on your midi keyboard.
+To play a tuba part (for example), route your midi keyboard input to "Tuba in", play bass keys on your midi keyboard, and you should hear the tuba. To record, arm the Tuba track, click the record button and then the play button, and then play the part on your midi keyboard.
 
 ### Seating
 
