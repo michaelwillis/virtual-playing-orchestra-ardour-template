@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="virtual-playing-orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1595303" name-counter="2" event-counter="3402657" vca-counter="1">
+<Session version="3002" name="virtual-playing-orchestra-template" sample-rate="48000" end-is-free="yes" id-counter="1682563" name-counter="2" event-counter="3488436" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.3-4-gb7e8d6f" modified-with="Ardour 5.5"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -118,7 +118,7 @@
       <Controllable name="recenable" id="38711" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Piccolo" name="Piccolo" id="38716" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="590972" name="Flute" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x2" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="590972" name="Flute" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="1" flags="MidiTrack,Hidden,OrderSet" color="2951049983"/>
       <Controllable name="solo" id="591036" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="591037" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -217,8 +217,8 @@
       <Controllable name="recenable" id="591047" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Flute" name="Flute" id="591042" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="38769" name="Flutes" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x0" note-mode="Sustained" step-editing="no" input-active="yes">
-      <PresentationInfo order="2" flags="MidiTrack,Selected,OrderSet" color="3689247487"/>
+    <Route id="38769" name="Flutes" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="2" flags="MidiTrack,OrderSet" color="3689247487"/>
       <Controllable name="solo" id="429880" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="429886" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="429888" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -316,7 +316,7 @@
       <Controllable name="recenable" id="38805" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Flutes.1" name="Flutes" id="38810" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="591555" name="Oboe" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x0" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="591555" name="Oboe" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="3" flags="MidiTrack,Hidden,OrderSet" color="3169180415"/>
       <Controllable name="solo" id="591619" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="591620" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -415,7 +415,7 @@
       <Controllable name="recenable" id="591630" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Oboe" name="Oboe" id="591625" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="38957" name="Oboes" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x0" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="38957" name="Oboes" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="4" flags="MidiTrack,OrderSet" color="3849511935"/>
       <Controllable name="solo" id="429959" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="429965" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -514,7 +514,7 @@
       <Controllable name="recenable" id="38993" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Oboes" name="Oboes" id="38998" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39004" name="Cor Anglais" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x200" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39004" name="Cor Anglais" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="5" flags="MidiTrack,Hidden,OrderSet" color="2964514303"/>
       <Controllable name="solo" id="430038" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430044" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -613,7 +613,7 @@
       <Controllable name="recenable" id="39040" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cor Anglais" name="Cor Anglais" id="39045" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="592142" name="Clarinet" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x20" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="592142" name="Clarinet" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="6" flags="MidiTrack,Hidden,OrderSet" color="3849508607"/>
       <Controllable name="solo" id="592206" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="592207" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -712,7 +712,7 @@
       <Controllable name="recenable" id="592219" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Clarinet" name="Clarinet" id="592212" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="38863" name="Clarinets" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x20" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="38863" name="Clarinets" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="7" flags="MidiTrack,OrderSet" color="4270751743"/>
       <Controllable name="solo" id="430117" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430123" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -811,7 +811,7 @@
       <Controllable name="recenable" id="38899" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Clarinets" name="Clarinets" id="38904" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="592735" name="Bassoon" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="592735" name="Bassoon" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="8" flags="MidiTrack,Hidden,OrderSet" color="2749742079"/>
       <Controllable name="solo" id="592799" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="592800" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -910,7 +910,7 @@
       <Controllable name="recenable" id="592812" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Bassoon" name="Bassoon" id="592805" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39098" name="Bassoons" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39098" name="Bassoons" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="9" flags="MidiTrack,OrderSet" color="4034428159"/>
       <Controllable name="solo" id="430196" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430202" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1009,7 +1009,7 @@
       <Controllable name="recenable" id="39134" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Bassoons" name="Bassoons" id="39139" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="593332" name="Horn" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x2" capture-channel-mask="0x2" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="593332" name="Horn" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="10" flags="MidiTrack,Hidden,OrderSet" color="3855774463"/>
       <Controllable name="solo" id="593344" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="593345" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1055,7 +1055,7 @@
       <Controllable name="recenable" id="593357" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Horn" name="Horn" id="593350" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39192" name="Horns" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x2" capture-channel-mask="0x2" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39192" name="Horns" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="11" flags="MidiTrack,OrderSet" color="3855905535"/>
       <Controllable name="solo" id="430275" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430281" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1154,7 +1154,7 @@
       <Controllable name="recenable" id="39228" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Horns" name="Horns" id="39233" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="593879" name="Trumpet" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x8" capture-channel-mask="0x8" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="593879" name="Trumpet" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="12" flags="MidiTrack,Hidden,OrderSet" color="3849499135"/>
       <Controllable name="solo" id="593943" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="593944" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1253,7 +1253,7 @@
       <Controllable name="recenable" id="593956" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Trumpet" name="Trumpet" id="593949" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39286" name="Trumpets" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x8" capture-channel-mask="0x8" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39286" name="Trumpets" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="13" flags="MidiTrack,OrderSet" color="3854791423"/>
       <Controllable name="solo" id="430320" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430326" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1352,7 +1352,7 @@
       <Controllable name="recenable" id="39322" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Trumpets" name="Trumpets" id="39327" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="594484" name="Trombone" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x20" capture-channel-mask="0x20" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="594484" name="Trombone" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="14" flags="MidiTrack,Hidden,OrderSet" color="3773855999"/>
       <Controllable name="solo" id="594548" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="594549" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1451,7 +1451,7 @@
       <Controllable name="recenable" id="594561" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Trombone" name="Trombone" id="594554" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39380" name="Trombones" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x20" capture-channel-mask="0x20" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39380" name="Trombones" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="15" flags="MidiTrack,OrderSet" color="2027745535"/>
       <Controllable name="solo" id="430399" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430405" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1550,15 +1550,13 @@
       <Controllable name="recenable" id="39416" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Trombones" name="Trombones" id="39421" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39427" name="Tuba" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39427" name="Tuba" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="16" flags="MidiTrack,OrderSet" color="3851514623"/>
       <Controllable name="solo" id="430478" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430484" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="430486" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Tuba" id="39455" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Tuba/midi_in 1">
-          <Connection other="system:midi_capture_1"/>
-        </Port>
+        <Port type="midi" name="Tuba/midi_in 1"/>
       </IO>
       <IO name="Tuba" id="39456" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Tuba/midi_out 1">
@@ -1651,7 +1649,7 @@
       <Controllable name="recenable" id="39463" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Tuba" name="Tuba" id="39468" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39615" name="Bass/Snare/Cymbals" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x0" capture-channel-mask="0x0" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39615" name="Bass/Snare/Cymbals" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="17" flags="MidiTrack,OrderSet" color="3538019839"/>
       <Controllable name="solo" id="430557" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430563" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1750,7 +1748,7 @@
       <Controllable name="recenable" id="39651" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Bass/Snare/Cymbals" name="Bass/Snare/Cymbals" id="39656" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="595093" name="Misc Percussion" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x2000" capture-channel-mask="0x2000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="595093" name="Misc Percussion" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="18" flags="MidiTrack,OrderSet" color="2766523391"/>
       <Controllable name="solo" id="595105" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="595106" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1849,7 +1847,7 @@
       <Controllable name="recenable" id="595118" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Misc Percussion" name="Misc Percussion" id="595111" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39474" name="Glockenspiel" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x200" capture-channel-mask="0x200" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39474" name="Glockenspiel" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="19" flags="MidiTrack,OrderSet" color="2732946175"/>
       <Controllable name="solo" id="430602" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430608" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -1948,7 +1946,7 @@
       <Controllable name="recenable" id="39510" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Glockenspiel" name="Glockenspiel" id="39515" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="223832" name="Xylophone" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x200" capture-channel-mask="0x200" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="223832" name="Xylophone" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="20" flags="MidiTrack,OrderSet" color="3849961471"/>
       <Controllable name="solo" id="430681" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430687" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2047,7 +2045,7 @@
       <Controllable name="recenable" id="223905" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Glockenspiel 1.2" name="Glockenspiel 1" id="223898" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39521" name="Tubular Bells" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x800" capture-channel-mask="0x800" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39521" name="Tubular Bells" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="21" flags="MidiTrack,OrderSet" color="3144869375"/>
       <Controllable name="solo" id="430760" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430766" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2146,7 +2144,7 @@
       <Controllable name="recenable" id="39557" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Tubular Bells" name="Tubular Bells" id="39562" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39568" name="Timpani Hit" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39568" name="Timpani Hit" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="22" flags="MidiTrack,OrderSet" color="1927663359"/>
       <Controllable name="solo" id="430839" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430845" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2245,7 +2243,7 @@
       <Controllable name="recenable" id="39604" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Timpani Hit" name="Timpani Hit" id="39609" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="595652" name="Timpani Roll" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="595652" name="Timpani Roll" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="23" flags="MidiTrack,OrderSet" color="1926161919"/>
       <Controllable name="solo" id="595716" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="595717" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2344,13 +2342,15 @@
       <Controllable name="recenable" id="595729" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Timpani Roll" name="Timpani Roll" id="595722" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39850" name="Piano" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x8" capture-channel-mask="0x8" note-mode="Sustained" step-editing="no" input-active="yes">
-      <PresentationInfo order="24" flags="MidiTrack,OrderSet" color="3852449279"/>
+    <Route id="39850" name="Piano" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="24" flags="MidiTrack,Selected,OrderSet" color="3852449279"/>
       <Controllable name="solo" id="430918" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="430924" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="430926" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Piano" id="39878" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Piano/midi_in 1"/>
+        <Port type="midi" name="Piano/midi_in 1">
+          <Connection other="system:midi_capture_1"/>
+        </Port>
       </IO>
       <IO name="Piano" id="39879" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Piano/midi_out 1">
@@ -2370,7 +2370,7 @@
         <Automation/>
       </Pannable>
       <Processor id="39880" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="39854" flags="" value="2.000000000000"/>
+        <Controllable name="gaincontrol" id="39854" flags="" value="0.984375000000"/>
       </Processor>
       <Processor id="39882" name="meter-MIDI 26" active="yes" user-latency="0" type="meter"/>
       <Processor id="39883" name="Piano" active="yes" user-latency="0" own-input="yes" own-output="no" output="Piano" type="main-outs" role="Main">
@@ -2588,7 +2588,7 @@
       <Controllable name="recenable" id="596346" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Harp (Dampened)" name="Harp (Dampened)" id="596339" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="39991" name="1st Violin" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="39991" name="1st Violin" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="27" flags="MidiTrack,Hidden,OrderSet" color="1927667711"/>
       <Controllable name="solo" id="431076" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="431082" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2687,7 +2687,7 @@
       <Controllable name="recenable" id="40027" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="1st Violin" name="1st Violin" id="40032" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="681384" name="1st Violin Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="681384" name="1st Violin Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="28" flags="MidiTrack,Hidden,OrderSet" color="2095411967"/>
       <Controllable name="solo" id="681396" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="681397" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2786,7 +2786,7 @@
       <Controllable name="recenable" id="681409" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="1st Violin Pizz" name="1st Violin Pizz" id="681402" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="681452" name="1st Violins" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="681452" name="1st Violins" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="29" flags="MidiTrack,OrderSet" color="3850619135"/>
       <Controllable name="solo" id="681464" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="681465" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2885,7 +2885,7 @@
       <Controllable name="recenable" id="681477" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="1st Violins" name="1st Violins" id="681470" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="681520" name="1st Violins Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="681520" name="1st Violins Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="30" flags="MidiTrack,Hidden,OrderSet" color="3850400511"/>
       <Controllable name="solo" id="681532" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="681533" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -2984,7 +2984,7 @@
       <Controllable name="recenable" id="681545" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="1st Violins Pizz" name="1st Violins Pizz" id="681538" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="681588" name="1st Violins Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="681588" name="1st Violins Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="31" flags="MidiTrack,Hidden,OrderSet" color="3917281535"/>
       <Controllable name="solo" id="681600" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="681601" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3083,7 +3083,7 @@
       <Controllable name="recenable" id="681613" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="1st Violins Trem" name="1st Violins Trem" id="681606" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="40226" name="2nd Violin" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="40226" name="2nd Violin" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="32" flags="MidiTrack,Hidden,OrderSet" color="1925637631"/>
       <Controllable name="solo" id="431121" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="431127" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3182,7 +3182,7 @@
       <Controllable name="recenable" id="40262" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="2nd Violin" name="2nd Violin" id="40267" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="708090" name="2nd Violin Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="708090" name="2nd Violin Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="33" flags="MidiTrack,Hidden,OrderSet" color="1922426367"/>
       <Controllable name="solo" id="708154" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="708155" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3281,7 +3281,7 @@
       <Controllable name="recenable" id="708167" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="2nd Violin Pizz" name="2nd Violin Pizz" id="708160" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="708210" name="2nd Violins" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="708210" name="2nd Violins" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="34" flags="MidiTrack,OrderSet" color="1926817279"/>
       <Controllable name="solo" id="708274" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="708275" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3380,7 +3380,7 @@
       <Controllable name="recenable" id="708287" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="2nd Violins" name="2nd Violins" id="708280" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="708330" name="2nd Violins Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="708330" name="2nd Violins Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="35" flags="MidiTrack,Hidden,OrderSet" color="3200446463"/>
       <Controllable name="solo" id="708394" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="708395" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3479,7 +3479,7 @@
       <Controllable name="recenable" id="708407" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="2nd Violins Pizz" name="2nd Violins Pizz" id="708400" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="708450" name="2nd Violins Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="708450" name="2nd Violins Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="36" flags="MidiTrack,Hidden,OrderSet" color="3351504383"/>
       <Controllable name="solo" id="708514" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="708515" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3578,7 +3578,7 @@
       <Controllable name="recenable" id="708527" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="2nd Violins Trem" name="2nd Violins Trem" id="708520" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="40461" name="Viola" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x4" capture-channel-mask="0x4" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="40461" name="Viola" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="37" flags="MidiTrack,Hidden,OrderSet" color="3856655359"/>
       <Controllable name="solo" id="431200" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="431206" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3624,7 +3624,7 @@
       <Controllable name="recenable" id="40497" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Viola" name="Viola" id="40502" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="736983" name="Viola Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x4" capture-channel-mask="0x4" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="736983" name="Viola Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="38" flags="MidiTrack,Hidden,OrderSet" color="4174835711"/>
       <Controllable name="solo" id="737047" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="737048" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3723,7 +3723,7 @@
       <Controllable name="recenable" id="737060" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Viola Pizz" name="Viola Pizz" id="737053" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="737103" name="Violas" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x4" capture-channel-mask="0x4" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="737103" name="Violas" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="39" flags="MidiTrack,OrderSet" color="3504720639"/>
       <Controllable name="solo" id="737167" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="737168" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3822,7 +3822,7 @@
       <Controllable name="recenable" id="737180" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Violas" name="Violas" id="737173" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="737223" name="Violas Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x4" capture-channel-mask="0x4" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="737223" name="Violas Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="40" flags="MidiTrack,Hidden,OrderSet" color="2380624639"/>
       <Controllable name="solo" id="737287" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="737288" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -3921,7 +3921,7 @@
       <Controllable name="recenable" id="737300" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Violas Pizz" name="Violas Pizz" id="737293" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="737343" name="Violas Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x4" capture-channel-mask="0x4" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="737343" name="Violas Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="41" flags="MidiTrack,Hidden,OrderSet" color="3320345855"/>
       <Controllable name="solo" id="737407" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="737408" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4020,7 +4020,7 @@
       <Controllable name="recenable" id="737420" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Violas Trem" name="Violas Trem" id="737413" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="40696" name="Cello" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="40696" name="Cello" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="42" flags="MidiTrack,Hidden,OrderSet" color="3202727935"/>
       <Controllable name="solo" id="431279" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="431285" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4119,7 +4119,7 @@
       <Controllable name="recenable" id="40732" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cello" name="Cello" id="40737" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="739643" name="Cello Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="739643" name="Cello Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="43" flags="MidiTrack,Hidden,OrderSet" color="3773148927"/>
       <Controllable name="solo" id="739707" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="739708" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4218,7 +4218,7 @@
       <Controllable name="recenable" id="739720" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cello Pizz" name="Cello Pizz" id="739713" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="739763" name="Cellos" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="739763" name="Cellos" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="44" flags="MidiTrack,OrderSet" color="3856983551"/>
       <Controllable name="solo" id="739827" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="739828" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4317,7 +4317,7 @@
       <Controllable name="recenable" id="739840" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cellos" name="Cellos" id="739833" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="739883" name="Cellos Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="739883" name="Cellos Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="45" flags="MidiTrack,Hidden,OrderSet" color="3800098303"/>
       <Controllable name="solo" id="739947" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="739948" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4416,7 +4416,7 @@
       <Controllable name="recenable" id="739960" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cellos Pizz" name="Cellos Pizz" id="739953" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="740003" name="Cellos Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x80" capture-channel-mask="0x80" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="740003" name="Cellos Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="46" flags="MidiTrack,Hidden,OrderSet" color="3854734591"/>
       <Controllable name="solo" id="740067" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="740068" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4515,7 +4515,7 @@
       <Controllable name="recenable" id="740080" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Cellos Trem" name="Cellos Trem" id="740073" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="40931" name="Contrabass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="40931" name="Contrabass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="47" flags="MidiTrack,Hidden,OrderSet" color="3850007295"/>
       <Controllable name="solo" id="431358" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="431364" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4614,7 +4614,7 @@
       <Controllable name="recenable" id="40967" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Contrabass" name="Contrabass" id="40972" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="742342" name="Contrabass Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="742342" name="Contrabass Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="48" flags="MidiTrack,Hidden,OrderSet" color="3085291007"/>
       <Controllable name="solo" id="742406" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="742407" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4713,7 +4713,7 @@
       <Controllable name="recenable" id="742419" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Contrabass Pizz" name="Contrabass Pizz" id="742412" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="742462" name="Contrabasses" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="742462" name="Contrabasses" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="49" flags="MidiTrack,OrderSet" color="2390025727"/>
       <Controllable name="solo" id="742526" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="742527" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4812,7 +4812,7 @@
       <Controllable name="recenable" id="742539" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Contrabasses" name="Contrabasses" id="742532" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="742582" name="Contrabasses Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="742582" name="Contrabasses Pizz" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="50" flags="MidiTrack,Hidden,OrderSet" color="3849493759"/>
       <Controllable name="solo" id="742646" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="742647" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -4911,7 +4911,7 @@
       <Controllable name="recenable" id="742659" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Contrabasses Pizz" name="Contrabasses Pizz" id="742652" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="742702" name="Contrabasses Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1000" capture-channel-mask="0x1000" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="742702" name="Contrabasses Trem" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="51" flags="MidiTrack,Hidden,OrderSet" color="1923278335"/>
       <Controllable name="solo" id="742766" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="742767" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
@@ -5868,7 +5868,7 @@
       <Controllable name="phase" id="50093" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="50100" flags="" value="0.349999994040"/>
+        <Controllable name="pan-azimuth" id="50100" flags="" value="0.400000005960"/>
         <Controllable name="pan-width" id="50104" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="50102" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="50106" flags="" value="0.000000000000"/>
@@ -5887,7 +5887,7 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="50100" flags="" value="0.349999994040"/>
+          <Controllable name="pan-azimuth" id="50100" flags="" value="0.400000005960"/>
           <Controllable name="pan-width" id="50104" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="50102" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="50106" flags="" value="0.000000000000"/>
@@ -5902,7 +5902,7 @@
       <Processor id="50114" name="Flute/Clarinet Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Flute/Clarinet Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="50100" flags="" value="0.349999994040"/>
+          <Controllable name="pan-azimuth" id="50100" flags="" value="0.400000005960"/>
           <Controllable name="pan-width" id="50104" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="50102" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="50106" flags="" value="0.000000000000"/>
@@ -5950,8 +5950,8 @@
       <Controllable name="phase" id="50135" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057132" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057136" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057132" flags="" value="0.601123571396"/>
+        <Controllable name="pan-width" id="1057136" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057134" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057138" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057140" flags="" value="0.000000000000"/>
@@ -5969,8 +5969,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057132" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057136" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057132" flags="" value="0.601123571396"/>
+          <Controllable name="pan-width" id="1057136" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057134" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057138" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057140" flags="" value="0.000000000000"/>
@@ -5984,8 +5984,8 @@
       <Processor id="50156" name="Oboe/Bassoon Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Oboe/Bassoon Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057132" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057136" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057132" flags="" value="0.601123571396"/>
+          <Controllable name="pan-width" id="1057136" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057134" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057138" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057140" flags="" value="0.000000000000"/>
@@ -6020,7 +6020,7 @@
       <Controllable name="phase" id="51101" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="51108" flags="" value="0.330000013113"/>
+        <Controllable name="pan-azimuth" id="51108" flags="" value="0.296292155981"/>
         <Controllable name="pan-width" id="51112" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="51110" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="51114" flags="" value="0.000000000000"/>
@@ -6038,7 +6038,7 @@
       <Processor id="51122" name="Horn Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Horn Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="51108" flags="" value="0.330000013113"/>
+          <Controllable name="pan-azimuth" id="51108" flags="" value="0.296292155981"/>
           <Controllable name="pan-width" id="51112" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="51110" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="51114" flags="" value="0.000000000000"/>
@@ -6074,8 +6074,8 @@
       <Controllable name="phase" id="50261" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057802" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057806" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057802" flags="" value="0.300000011921"/>
+        <Controllable name="pan-width" id="1057806" flags="" value="0.303370773792"/>
         <Controllable name="pan-elevation" id="1057804" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057808" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057810" flags="" value="0.000000000000"/>
@@ -6092,8 +6092,8 @@
       <Processor id="50282" name="Horns Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Horns Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057802" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057806" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057802" flags="" value="0.300000011921"/>
+          <Controllable name="pan-width" id="1057806" flags="" value="0.303370773792"/>
           <Controllable name="pan-elevation" id="1057804" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057808" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057810" flags="" value="0.000000000000"/>
@@ -6128,8 +6128,8 @@
       <Controllable name="phase" id="51059" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057836" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057840" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057836" flags="" value="0.699999988079"/>
+        <Controllable name="pan-width" id="1057840" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057838" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057842" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057844" flags="" value="0.000000000000"/>
@@ -6146,8 +6146,8 @@
       <Processor id="51080" name="Trumpet Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Trumpet Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057836" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057840" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057836" flags="" value="0.699999988079"/>
+          <Controllable name="pan-width" id="1057840" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057838" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057842" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057844" flags="" value="0.000000000000"/>
@@ -6182,8 +6182,8 @@
       <Controllable name="phase" id="51017" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057870" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057874" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057870" flags="" value="0.699999988079"/>
+        <Controllable name="pan-width" id="1057874" flags="" value="0.300000011921"/>
         <Controllable name="pan-elevation" id="1057872" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057876" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057878" flags="" value="0.000000000000"/>
@@ -6200,8 +6200,8 @@
       <Processor id="51038" name="Trumpets Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Trumpets Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057870" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057874" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057870" flags="" value="0.699999988079"/>
+          <Controllable name="pan-width" id="1057874" flags="" value="0.300000011921"/>
           <Controllable name="pan-elevation" id="1057872" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057876" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057878" flags="" value="0.000000000000"/>
@@ -6225,10 +6225,10 @@
       </IO>
       <IO name="Trombones Bus" id="50362" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Trombones Bus/audio_out 1">
-          <Connection other="Row 3/audio_in 1"/>
+          <Connection other="Row 4/audio_in 1"/>
         </Port>
         <Port type="audio" name="Trombones Bus/audio_out 2">
-          <Connection other="Row 3/audio_in 2"/>
+          <Connection other="Row 4/audio_in 2"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
@@ -6237,7 +6237,7 @@
       <Automation/>
       <Pannable>
         <Controllable name="pan-azimuth" id="50352" flags="" value="0.750000000000"/>
-        <Controllable name="pan-width" id="50356" flags="" value="0.330000013113"/>
+        <Controllable name="pan-width" id="50356" flags="" value="0.300000011921"/>
         <Controllable name="pan-elevation" id="50354" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="50358" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="50360" flags="" value="0.000000000000"/>
@@ -6255,7 +6255,7 @@
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="50352" flags="" value="0.750000000000"/>
-          <Controllable name="pan-width" id="50356" flags="" value="0.330000013113"/>
+          <Controllable name="pan-width" id="50356" flags="" value="0.300000011921"/>
           <Controllable name="pan-elevation" id="50354" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="50358" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="50360" flags="" value="0.000000000000"/>
@@ -6294,8 +6294,8 @@
       <Controllable name="phase" id="253331" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057961" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057965" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057961" flags="" value="0.800000011921"/>
+        <Controllable name="pan-width" id="1057965" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057963" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057967" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057969" flags="" value="0.000000000000"/>
@@ -6312,8 +6312,8 @@
       <Processor id="253324" name="Tuba/Trombone Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Tuba/Trombone Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057961" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057965" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057961" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057965" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057963" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057967" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057969" flags="" value="0.000000000000"/>
@@ -6349,7 +6349,7 @@
       <Automation/>
       <Pannable>
         <Controllable name="pan-azimuth" id="1057995" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057999" flags="" value="1.000000000000"/>
+        <Controllable name="pan-width" id="1057999" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057997" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058001" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058003" flags="" value="0.000000000000"/>
@@ -6367,7 +6367,7 @@
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="1057995" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057999" flags="" value="1.000000000000"/>
+          <Controllable name="pan-width" id="1057999" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057997" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058001" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058003" flags="" value="0.000000000000"/>
@@ -6402,8 +6402,8 @@
       <Controllable name="phase" id="50555" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1058029" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1058033" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1058029" flags="" value="0.300000011921"/>
+        <Controllable name="pan-width" id="1058033" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1058031" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058035" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058037" flags="" value="0.000000000000"/>
@@ -6420,8 +6420,8 @@
       <Processor id="50576" name="Misc Perc Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Misc Perc Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1058029" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1058033" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1058029" flags="" value="0.300000011921"/>
+          <Controllable name="pan-width" id="1058033" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1058031" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058035" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058037" flags="" value="0.000000000000"/>
@@ -6456,8 +6456,8 @@
       <Controllable name="phase" id="50597" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1058063" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1058067" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1058063" flags="" value="0.600000023842"/>
+        <Controllable name="pan-width" id="1058067" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1058065" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058069" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058071" flags="" value="0.000000000000"/>
@@ -6474,8 +6474,8 @@
       <Processor id="50618" name="Glockenspiel Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Glockenspiel Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1058063" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1058067" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1058063" flags="" value="0.600000023842"/>
+          <Controllable name="pan-width" id="1058067" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1058065" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058069" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058071" flags="" value="0.000000000000"/>
@@ -6510,8 +6510,8 @@
       <Controllable name="phase" id="196070" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1058097" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1058101" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1058097" flags="" value="0.699999988079"/>
+        <Controllable name="pan-width" id="1058101" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1058099" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058103" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058105" flags="" value="0.000000000000"/>
@@ -6528,8 +6528,8 @@
       <Processor id="196063" name="Xylophone Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Xylophone Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1058097" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1058101" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1058097" flags="" value="0.699999988079"/>
+          <Controllable name="pan-width" id="1058101" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1058099" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058103" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058105" flags="" value="0.000000000000"/>
@@ -6564,8 +6564,8 @@
       <Controllable name="phase" id="196134" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1058131" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1058135" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1058131" flags="" value="0.200000002980"/>
+        <Controllable name="pan-width" id="1058135" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1058133" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058137" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058139" flags="" value="0.000000000000"/>
@@ -6582,8 +6582,8 @@
       <Processor id="196127" name="Tubular Bells Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Tubular Bells Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1058131" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1058135" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1058131" flags="" value="0.200000002980"/>
+          <Controllable name="pan-width" id="1058135" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1058133" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058137" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058139" flags="" value="0.000000000000"/>
@@ -6620,8 +6620,8 @@
       <Controllable name="phase" id="899257" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1058165" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1058169" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1058165" flags="" value="0.400000005960"/>
+        <Controllable name="pan-width" id="1058169" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1058167" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1058171" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1058173" flags="" value="0.000000000000"/>
@@ -6638,8 +6638,8 @@
       <Processor id="899246" name="Timpani Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Timpani Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1058165" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1058169" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1058165" flags="" value="0.400000005960"/>
+          <Controllable name="pan-width" id="1058169" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1058167" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1058171" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1058173" flags="" value="0.000000000000"/>
@@ -6677,7 +6677,7 @@
       <Automation/>
       <Pannable>
         <Controllable name="pan-azimuth" id="1057904" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057908" flags="" value="1.000000000000"/>
+        <Controllable name="pan-width" id="1057908" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057906" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057910" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057912" flags="" value="0.000000000000"/>
@@ -6688,45 +6688,14 @@
         <Controllable name="trimcontrol" id="50297" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="50321" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="50295" flags="" value="0.447403490543"/>
-      </Processor>
-      <Processor id="1288235" name="Invada High Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/hpf/stereo" count="1" custom="no">
-        <ConfiguredInput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredInput>
-        <CustomSinks>
-          <Channels type="audio" count="2"/>
-        </CustomSinks>
-        <ConfiguredOutput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredOutput>
-        <PresetOutput/>
-        <InputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </InputMap-0>
-        <OutputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </OutputMap-0>
-        <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port symbol="bypass" value="+0.000000"/>
-          <Port symbol="freq" value="+224.607697"/>
-          <Port symbol="gain" value="+0.000000"/>
-          <Port symbol="noClip" value="+1.000000"/>
-        </lv2>
-        <Controllable name="Bypass" id="1288237" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
-        <Controllable name="Frequency" id="1288239" flags="" value="224.607696533203" parameter="1" symbol="freq"/>
-        <Controllable name="Gain" id="1288241" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
-        <Controllable name="Soft Clip" id="1288243" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
+        <Controllable name="gaincontrol" id="50295" flags="" value="1.584893226624"/>
       </Processor>
       <Processor id="50323" name="meter-Bus 6" active="yes" user-latency="0" type="meter"/>
       <Processor id="50324" name="Piano Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Piano Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="1057904" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057908" flags="" value="1.000000000000"/>
+          <Controllable name="pan-width" id="1057908" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057906" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057910" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057912" flags="" value="0.000000000000"/>
@@ -6752,10 +6721,10 @@
       </IO>
       <IO name="Harp Bus" id="899312" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Harp Bus/audio_out 1">
-          <Connection other="Row 2/audio_in 1"/>
+          <Connection other="Row 3/audio_in 1"/>
         </Port>
         <Port type="audio" name="Harp Bus/audio_out 2">
-          <Connection other="Row 2/audio_in 2"/>
+          <Connection other="Row 3/audio_in 2"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
@@ -6763,8 +6732,8 @@
       <Controllable name="phase" id="899341" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057166" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057170" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057166" flags="" value="0.250000000000"/>
+        <Controllable name="pan-width" id="1057170" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057168" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057172" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057174" flags="" value="0.000000000000"/>
@@ -6777,28 +6746,12 @@
       <Processor id="899327" name="Amp" active="yes" user-latency="0" type="amp">
         <Controllable name="gaincontrol" id="899328" flags="" value="1.000000000000"/>
       </Processor>
-      <Processor id="1057588" name="Harp ER" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intsend" role="Aux" bitslot="29" selfdestruct="no" target="1057290" allow-feedback="0">
-        <PannerShell bypassed="no" user-panner="" linked-to-route="yes">
-          <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
-        </PannerShell>
-        <Pannable>
-          <Controllable name="pan-azimuth" id="1057166" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057170" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="1057168" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="1057172" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="1057174" flags="" value="0.000000000000"/>
-          <Automation/>
-        </Pannable>
-        <Processor id="1057603" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1057602" flags="GainLike" value="1.000000000000"/>
-        </Processor>
-      </Processor>
       <Processor id="899329" name="meter-Bus 6" active="yes" user-latency="0" type="meter"/>
       <Processor id="899330" name="Harp Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Harp Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057166" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057170" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057166" flags="" value="0.250000000000"/>
+          <Controllable name="pan-width" id="1057170" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057168" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057172" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057174" flags="" value="0.000000000000"/>
@@ -6835,8 +6788,8 @@
       <Controllable name="phase" id="50723" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1056838" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1056842" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1056838" flags="" value="0.250000000000"/>
+        <Controllable name="pan-width" id="1056842" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1056840" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1056844" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1056846" flags="" value="0.000000000000"/>
@@ -6854,8 +6807,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056838" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056842" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056838" flags="" value="0.250000000000"/>
+          <Controllable name="pan-width" id="1056842" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056840" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056844" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056846" flags="" value="0.000000000000"/>
@@ -6869,8 +6822,8 @@
       <Processor id="50744" name="1st Violin Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="1st Violin Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056838" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056842" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056838" flags="" value="0.250000000000"/>
+          <Controllable name="pan-width" id="1056842" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056840" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056844" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056846" flags="" value="0.000000000000"/>
@@ -6909,8 +6862,8 @@
       <Controllable name="phase" id="50765" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1056872" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1056876" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1056872" flags="" value="0.200000002980"/>
+        <Controllable name="pan-width" id="1056876" flags="" value="0.400000005960"/>
         <Controllable name="pan-elevation" id="1056874" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1056878" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1056880" flags="" value="0.000000000000"/>
@@ -6928,8 +6881,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056872" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056876" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056872" flags="" value="0.200000002980"/>
+          <Controllable name="pan-width" id="1056876" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1056874" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056878" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056880" flags="" value="0.000000000000"/>
@@ -6943,8 +6896,8 @@
       <Processor id="50786" name="1st Violins Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="1st Violins Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056872" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056876" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056872" flags="" value="0.200000002980"/>
+          <Controllable name="pan-width" id="1056876" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1056874" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056878" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056880" flags="" value="0.000000000000"/>
@@ -6981,8 +6934,8 @@
       <Controllable name="phase" id="50807" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1056906" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1056910" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1056906" flags="" value="0.400000005960"/>
+        <Controllable name="pan-width" id="1056910" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1056908" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1056912" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1056914" flags="" value="0.000000000000"/>
@@ -7000,8 +6953,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056906" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056910" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056906" flags="" value="0.400000005960"/>
+          <Controllable name="pan-width" id="1056910" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056908" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056912" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056914" flags="" value="0.000000000000"/>
@@ -7015,8 +6968,8 @@
       <Processor id="50828" name="2nd Violin Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="2nd Violin Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056906" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056910" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056906" flags="" value="0.400000005960"/>
+          <Controllable name="pan-width" id="1056910" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056908" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056912" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056914" flags="" value="0.000000000000"/>
@@ -7055,8 +7008,8 @@
       <Controllable name="phase" id="50849" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1056940" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1056944" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1056940" flags="" value="0.400000005960"/>
+        <Controllable name="pan-width" id="1056944" flags="" value="0.400000005960"/>
         <Controllable name="pan-elevation" id="1056942" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1056946" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1056948" flags="" value="0.000000000000"/>
@@ -7074,8 +7027,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056940" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056944" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056940" flags="" value="0.400000005960"/>
+          <Controllable name="pan-width" id="1056944" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1056942" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056946" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056948" flags="" value="0.000000000000"/>
@@ -7089,8 +7042,8 @@
       <Processor id="50870" name="2nd Violins Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="2nd Violins Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056940" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056944" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056940" flags="" value="0.400000005960"/>
+          <Controllable name="pan-width" id="1056944" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1056942" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056946" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056948" flags="" value="0.000000000000"/>
@@ -7127,8 +7080,8 @@
       <Controllable name="phase" id="51614" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1056974" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1056978" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1056974" flags="" value="0.600000023842"/>
+        <Controllable name="pan-width" id="1056978" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1056976" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1056980" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1056982" flags="" value="0.000000000000"/>
@@ -7146,8 +7099,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056974" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056978" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056974" flags="" value="0.600000023842"/>
+          <Controllable name="pan-width" id="1056978" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056976" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056980" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056982" flags="" value="0.000000000000"/>
@@ -7161,8 +7114,8 @@
       <Processor id="51635" name="Viola Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Viola Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1056974" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1056978" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1056974" flags="" value="0.600000023842"/>
+          <Controllable name="pan-width" id="1056978" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1056976" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1056980" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1056982" flags="" value="0.000000000000"/>
@@ -7201,8 +7154,8 @@
       <Controllable name="phase" id="50891" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057008" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057012" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057008" flags="" value="0.600000023842"/>
+        <Controllable name="pan-width" id="1057012" flags="" value="0.400000005960"/>
         <Controllable name="pan-elevation" id="1057010" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057014" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057016" flags="" value="0.000000000000"/>
@@ -7220,8 +7173,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057008" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057012" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057008" flags="" value="0.600000023842"/>
+          <Controllable name="pan-width" id="1057012" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1057010" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057014" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057016" flags="" value="0.000000000000"/>
@@ -7235,8 +7188,8 @@
       <Processor id="50912" name="Violas Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Violas Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057008" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057012" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057008" flags="" value="0.600000023842"/>
+          <Controllable name="pan-width" id="1057012" flags="" value="0.400000005960"/>
           <Controllable name="pan-elevation" id="1057010" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057014" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057016" flags="" value="0.000000000000"/>
@@ -7273,8 +7226,8 @@
       <Controllable name="phase" id="51656" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057042" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057046" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057042" flags="" value="0.800000011921"/>
+        <Controllable name="pan-width" id="1057046" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057044" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057048" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057050" flags="" value="0.000000000000"/>
@@ -7299,8 +7252,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057042" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057046" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057042" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057046" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057044" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057048" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057050" flags="" value="0.000000000000"/>
@@ -7321,8 +7274,8 @@
       <Processor id="51677" name="Cello Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Cello Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057042" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057046" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057042" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057046" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057044" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057048" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057050" flags="" value="0.000000000000"/>
@@ -7361,8 +7314,8 @@
       <Controllable name="phase" id="50933" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057076" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057080" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057076" flags="" value="0.800000011921"/>
+        <Controllable name="pan-width" id="1057080" flags="" value="0.399999976158"/>
         <Controllable name="pan-elevation" id="1057078" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057082" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057084" flags="" value="0.000000000000"/>
@@ -7380,8 +7333,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057076" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057080" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057076" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057080" flags="" value="0.399999976158"/>
           <Controllable name="pan-elevation" id="1057078" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057082" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057084" flags="" value="0.000000000000"/>
@@ -7395,8 +7348,8 @@
       <Processor id="50954" name="Cellos Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Cellos Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057076" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057080" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057076" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057080" flags="" value="0.399999976158"/>
           <Controllable name="pan-elevation" id="1057078" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057082" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057084" flags="" value="0.000000000000"/>
@@ -7433,8 +7386,8 @@
       <Controllable name="phase" id="51698" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057200" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057204" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057200" flags="" value="0.800000011921"/>
+        <Controllable name="pan-width" id="1057204" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="1057202" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057206" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057208" flags="" value="0.000000000000"/>
@@ -7452,8 +7405,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057200" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057204" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057200" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057204" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057202" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057206" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057208" flags="" value="0.000000000000"/>
@@ -7467,8 +7420,8 @@
       <Processor id="51719" name="Contrabass Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Contrabass Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057200" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057204" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057200" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057204" flags="" value="0.000000000000"/>
           <Controllable name="pan-elevation" id="1057202" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057206" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057208" flags="" value="0.000000000000"/>
@@ -7507,8 +7460,8 @@
       <Controllable name="phase" id="50975" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1057234" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057238" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="1057234" flags="" value="0.800000011921"/>
+        <Controllable name="pan-width" id="1057238" flags="" value="0.399999976158"/>
         <Controllable name="pan-elevation" id="1057236" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="1057240" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="1057242" flags="" value="0.000000000000"/>
@@ -7526,8 +7479,8 @@
           <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057234" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057238" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057234" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057238" flags="" value="0.399999976158"/>
           <Controllable name="pan-elevation" id="1057236" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057240" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057242" flags="" value="0.000000000000"/>
@@ -7541,8 +7494,8 @@
       <Processor id="50996" name="Contrabasses Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Contrabasses Bus" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1057234" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057238" flags="" value="1.000000000000"/>
+          <Controllable name="pan-azimuth" id="1057234" flags="" value="0.800000011921"/>
+          <Controllable name="pan-width" id="1057238" flags="" value="0.399999976158"/>
           <Controllable name="pan-elevation" id="1057236" flags="" value="0.000000000000"/>
           <Controllable name="pan-frontback" id="1057240" flags="" value="0.000000000000"/>
           <Controllable name="pan-lfe" id="1057242" flags="" value="0.000000000000"/>
@@ -7585,7 +7538,7 @@
         <Controllable name="trimcontrol" id="33027" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="33051" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="33025" flags="" value="0.323593646288"/>
+        <Controllable name="gaincontrol" id="33025" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="638503" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7646,103 +7599,8 @@
       </Processor>
       <Slavable/>
     </Route>
-    <Route id="1057290" name="Harp ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="83" flags="AudioBus,Hidden,OrderSet" color="2121459199"/>
-      <Controllable name="solo" id="1057298" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="1057304" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="1057306" flags="Toggle" value="0.000000000000" solo-safe="no"/>
-      <IO name="Harp ER" id="1057318" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Harp ER/audio_in 1"/>
-        <Port type="audio" name="Harp ER/audio_in 2"/>
-      </IO>
-      <IO name="Harp ER" id="1057319" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Harp ER/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Harp ER/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
-      </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="1057300" flags="Toggle,RealTime" value="0.000000000000"/>
-      <Controllable name="phase" id="1057302" flags="Toggle" value="0.000000000000" phase-invert="00"/>
-      <Automation/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="1057386" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="1057390" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="1057388" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="1057392" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="1057394" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="1057326" name="return 43" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intreturn" bitslot="42"/>
-      <Processor id="1057321" name="Amp" active="yes" user-latency="0" type="trim">
-        <Controllable name="trimcontrol" id="1057296" flags="GainLike" value="1.000000000000"/>
-      </Processor>
-      <Processor id="1057320" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="1057294" flags="GainLike" value="0.323993176222"/>
-      </Processor>
-      <Processor id="1057347" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
-        <ConfiguredInput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredInput>
-        <CustomSinks>
-          <Channels type="audio" count="2"/>
-        </CustomSinks>
-        <ConfiguredOutput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredOutput>
-        <PresetOutput/>
-        <InputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </InputMap-0>
-        <OutputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </OutputMap-0>
-        <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port symbol="bypass" value="+0.000000"/>
-          <Port symbol="roomLength" value="+25.000000"/>
-          <Port symbol="roomWidth" value="+30.000000"/>
-          <Port symbol="roomHeight" value="+10.000000"/>
-          <Port symbol="sourceLR" value="-0.668966"/>
-          <Port symbol="sourceFB" value="+0.715312"/>
-          <Port symbol="listLR" value="+0.010000"/>
-          <Port symbol="listFB" value="+0.200000"/>
-          <Port symbol="hpf" value="+1000.000000"/>
-          <Port symbol="warmth" value="+50.000000"/>
-          <Port symbol="diffusion" value="+50.000000"/>
-        </lv2>
-        <Controllable name="Bypass" id="1057349" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
-        <Controllable name="Room Length" id="1057351" flags="" value="25.000000000000" parameter="1" symbol="roomLength"/>
-        <Controllable name="Room Width" id="1057353" flags="" value="30.000000000000" parameter="2" symbol="roomWidth"/>
-        <Controllable name="Room Height" id="1057355" flags="" value="10.000000000000" parameter="3" symbol="roomHeight"/>
-        <Controllable name="Source Pan" id="1057357" flags="" value="-0.668965995312" parameter="4" symbol="sourceLR"/>
-        <Controllable name="Source (F/B)" id="1057359" flags="" value="0.715312004089" parameter="5" symbol="sourceFB"/>
-        <Controllable name="Listener Pan" id="1057361" flags="" value="0.009999999776" parameter="6" symbol="listLR"/>
-        <Controllable name="Listener (F/B)" id="1057363" flags="" value="0.200000002980" parameter="7" symbol="listFB"/>
-        <Controllable name="HPF" id="1057365" flags="" value="1000.000000000000" parameter="8" symbol="hpf"/>
-        <Controllable name="Warmth" id="1057367" flags="" value="50.000000000000" parameter="9" symbol="warmth"/>
-        <Controllable name="Diffusion" id="1057369" flags="" value="50.000000000000" parameter="10" symbol="diffusion"/>
-      </Processor>
-      <Processor id="1057322" name="meter-Harp ER Bus" active="yes" user-latency="0" type="meter"/>
-      <Processor id="1057323" name="Harp ER" active="yes" user-latency="0" own-input="yes" own-output="no" output="Harp ER" type="main-outs" role="Main">
-        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
-        <Pannable>
-          <Controllable name="pan-azimuth" id="1057386" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="1057390" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="1057388" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="1057392" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="1057394" flags="" value="0.000000000000"/>
-          <Automation/>
-        </Pannable>
-      </Processor>
-      <Slavable/>
-    </Route>
     <Route id="33128" name="1st Violins ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="84" flags="AudioBus,Hidden,OrderSet" color="3849490431"/>
+      <PresentationInfo order="83" flags="AudioBus,Hidden,OrderSet" color="3849490431"/>
       <Controllable name="solo" id="432890" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="432896" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="432898" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -7775,7 +7633,7 @@
         <Controllable name="trimcontrol" id="33134" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="33158" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="33132" flags="" value="0.323993176222"/>
+        <Controllable name="gaincontrol" id="33132" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="659295" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7837,7 +7695,7 @@
       <Slavable/>
     </Route>
     <Route id="745191" name="2nd Violins ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="85" flags="AudioBus,Hidden,OrderSet" color="3144869375"/>
+      <PresentationInfo order="84" flags="AudioBus,Hidden,OrderSet" color="3144869375"/>
       <Controllable name="solo" id="745255" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="745256" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="745257" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -7870,7 +7728,7 @@
         <Controllable name="trimcontrol" id="745207" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745208" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745209" flags="" value="0.323993176222"/>
+        <Controllable name="gaincontrol" id="745209" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="745246" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -7932,7 +7790,7 @@
       <Slavable/>
     </Route>
     <Route id="745296" name="Violas ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="86" flags="AudioBus,Hidden,OrderSet" color="2028306431"/>
+      <PresentationInfo order="85" flags="AudioBus,Hidden,OrderSet" color="2028306431"/>
       <Controllable name="solo" id="745360" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="745361" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="745362" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -7965,7 +7823,7 @@
         <Controllable name="trimcontrol" id="745312" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745313" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745314" flags="" value="0.323993176222"/>
+        <Controllable name="gaincontrol" id="745314" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="745351" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8027,7 +7885,7 @@
       <Slavable/>
     </Route>
     <Route id="745401" name="Cellos ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="87" flags="AudioBus,Hidden,OrderSet" color="1927538175"/>
+      <PresentationInfo order="86" flags="AudioBus,Hidden,OrderSet" color="1927538175"/>
       <Controllable name="solo" id="745465" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="745466" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="745467" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8060,7 +7918,7 @@
         <Controllable name="trimcontrol" id="745417" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745418" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745419" flags="" value="0.323993176222"/>
+        <Controllable name="gaincontrol" id="745419" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="745456" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8122,7 +7980,7 @@
       <Slavable/>
     </Route>
     <Route id="745506" name="Contrabasses ER" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="88" flags="AudioBus,Hidden,OrderSet" color="3757012991"/>
+      <PresentationInfo order="87" flags="AudioBus,Hidden,OrderSet" color="3757012991"/>
       <Controllable name="solo" id="745570" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="745571" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="745572" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8155,7 +8013,7 @@
         <Controllable name="trimcontrol" id="745522" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="745523" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="745524" flags="" value="0.225680738688"/>
+        <Controllable name="gaincontrol" id="745524" flags="" value="0.501187205315"/>
       </Processor>
       <Processor id="745561" name="Invada Early Reflection Reverb (sum L+R in)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/erreverb/sum" count="1" custom="no">
         <ConfiguredInput>
@@ -8217,7 +8075,7 @@
       <Slavable/>
     </Route>
     <Route id="899376" name="Row 1" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="89" flags="AudioBus,OrderSet" color="3849509887"/>
+      <PresentationInfo order="88" flags="AudioBus,OrderSet" color="3849509887"/>
       <Controllable name="solo" id="899384" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="899390" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="899392" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8268,7 +8126,7 @@
         <Controllable name="trimcontrol" id="899382" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="899406" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="899380" flags="GainLike" value="0.382368683815"/>
+        <Controllable name="gaincontrol" id="899380" flags="GainLike" value="0.501187205315"/>
       </Processor>
       <Processor id="1106750" name="Master-2" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="1" selfdestruct="no">
         <IO name="Master-2" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8291,7 +8149,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.562341332436"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.630957365036"/>
         </Processor>
       </Processor>
       <Processor id="1106704" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
@@ -8354,7 +8212,7 @@
       <Slavable/>
     </Route>
     <Route id="899418" name="Row 2" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="90" flags="AudioBus,OrderSet" color="3854398207"/>
+      <PresentationInfo order="89" flags="AudioBus,OrderSet" color="3854398207"/>
       <Controllable name="solo" id="899426" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="899432" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="899434" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8363,14 +8221,12 @@
           <Connection other="Contrabass Bus/audio_out 1"/>
           <Connection other="Contrabasses Bus/audio_out 1"/>
           <Connection other="Flute/Clarinet Bus/audio_out 1"/>
-          <Connection other="Harp Bus/audio_out 1"/>
           <Connection other="Oboe/Bassoon Bus/audio_out 1"/>
         </Port>
         <Port type="audio" name="Row 2/audio_in 2">
           <Connection other="Contrabass Bus/audio_out 2"/>
           <Connection other="Contrabasses Bus/audio_out 2"/>
           <Connection other="Flute/Clarinet Bus/audio_out 2"/>
-          <Connection other="Harp Bus/audio_out 2"/>
           <Connection other="Oboe/Bassoon Bus/audio_out 2"/>
         </Port>
       </IO>
@@ -8399,7 +8255,7 @@
         <Controllable name="trimcontrol" id="899424" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="899448" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="899422" flags="GainLike" value="0.447403490543"/>
+        <Controllable name="gaincontrol" id="899422" flags="GainLike" value="0.501187205315"/>
       </Processor>
       <Processor id="1106785" name="Master-3" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="2" selfdestruct="no">
         <IO name="Master-3" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8422,7 +8278,7 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.398107171059"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.501187205315"/>
         </Processor>
       </Processor>
       <Processor id="1106592" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
@@ -8485,25 +8341,25 @@
       <Slavable/>
     </Route>
     <Route id="977754" name="Row 3" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="91" flags="AudioBus,OrderSet" color="3849491967"/>
+      <PresentationInfo order="90" flags="AudioBus,OrderSet" color="3849491967"/>
       <Controllable name="solo" id="977815" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="977816" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="977817" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Row 3" id="977755" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Row 3/audio_in 1">
+          <Connection other="Harp Bus/audio_out 1"/>
           <Connection other="Horn Bus/audio_out 1"/>
           <Connection other="Horns Bus/audio_out 1"/>
           <Connection other="Piano Bus/audio_out 1"/>
-          <Connection other="Trombones Bus/audio_out 1"/>
           <Connection other="Trumpet Bus/audio_out 1"/>
           <Connection other="Trumpets Bus/audio_out 1"/>
           <Connection other="Tuba/Trombone Bus/audio_out 1"/>
         </Port>
         <Port type="audio" name="Row 3/audio_in 2">
+          <Connection other="Harp Bus/audio_out 2"/>
           <Connection other="Horn Bus/audio_out 2"/>
           <Connection other="Horns Bus/audio_out 2"/>
           <Connection other="Piano Bus/audio_out 2"/>
-          <Connection other="Trombones Bus/audio_out 2"/>
           <Connection other="Trumpet Bus/audio_out 2"/>
           <Connection other="Trumpets Bus/audio_out 2"/>
           <Connection other="Tuba/Trombone Bus/audio_out 2"/>
@@ -8534,7 +8390,7 @@
         <Controllable name="trimcontrol" id="977770" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="977771" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="977772" flags="GainLike" value="0.447403490543"/>
+        <Controllable name="gaincontrol" id="977772" flags="GainLike" value="0.501187205315"/>
       </Processor>
       <Processor id="1106819" name="Master-4" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="3" selfdestruct="no">
         <IO name="Master-4" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8557,8 +8413,39 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.281838297844"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.398107171059"/>
         </Processor>
+      </Processor>
+      <Processor id="1638966" name="Invada Low Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/lpf/stereo" count="1" custom="no">
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port symbol="bypass" value="+0.000000"/>
+          <Port symbol="freq" value="+3204.370850"/>
+          <Port symbol="gain" value="+0.000000"/>
+          <Port symbol="noClip" value="+1.000000"/>
+        </lv2>
+        <Controllable name="Bypass" id="1150462" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
+        <Controllable name="Frequency" id="1150464" flags="" value="3204.370849609375" parameter="1" symbol="freq"/>
+        <Controllable name="Gain" id="1150466" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
+        <Controllable name="Soft Clip" id="1150468" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
       </Processor>
       <Processor id="1106727" name="a-Delay" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-delay" count="2" custom="no">
         <ConfiguredInput>
@@ -8620,7 +8507,7 @@
       <Slavable/>
     </Route>
     <Route id="1106396" name="Row 4" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="92" flags="AudioBus,OrderSet" color="3854161919"/>
+      <PresentationInfo order="91" flags="AudioBus,OrderSet" color="3854161919"/>
       <Controllable name="solo" id="1106457" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1106458" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="1106459" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8630,6 +8517,7 @@
           <Connection other="Misc Perc Bus/audio_out 1"/>
           <Connection other="Snare/Cymbal/Bass Bus/audio_out 1"/>
           <Connection other="Timpani Bus/audio_out 1"/>
+          <Connection other="Trombones Bus/audio_out 1"/>
           <Connection other="Tubular Bells Bus/audio_out 1"/>
           <Connection other="Xylophone Bus/audio_out 1"/>
         </Port>
@@ -8638,6 +8526,7 @@
           <Connection other="Misc Perc Bus/audio_out 2"/>
           <Connection other="Snare/Cymbal/Bass Bus/audio_out 2"/>
           <Connection other="Timpani Bus/audio_out 2"/>
+          <Connection other="Trombones Bus/audio_out 2"/>
           <Connection other="Tubular Bells Bus/audio_out 2"/>
           <Connection other="Xylophone Bus/audio_out 2"/>
         </Port>
@@ -8667,7 +8556,7 @@
         <Controllable name="trimcontrol" id="1106412" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="1106413" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="1106414" flags="GainLike" value="0.447403490543"/>
+        <Controllable name="gaincontrol" id="1106414" flags="GainLike" value="0.501187205315"/>
       </Processor>
       <Processor id="1106853" name="Master-5" active="yes" user-latency="0" own-input="yes" own-output="yes" type="send" role="Send" bitslot="4" selfdestruct="no">
         <IO name="Master-5" id="1106751" direction="Output" default-type="audio" user-latency="0">
@@ -8690,8 +8579,39 @@
           <Automation/>
         </Pannable>
         <Processor id="1106766" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.242228880525"/>
+          <Controllable name="gaincontrol" id="1106765" flags="GainLike" value="0.316227763891"/>
         </Processor>
+      </Processor>
+      <Processor id="1638978" name="Invada Low Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/lpf/stereo" count="1" custom="no">
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port symbol="bypass" value="+0.000000"/>
+          <Port symbol="freq" value="+2256.099854"/>
+          <Port symbol="gain" value="+0.000000"/>
+          <Port symbol="noClip" value="+1.000000"/>
+        </lv2>
+        <Controllable name="Bypass" id="1150462" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
+        <Controllable name="Frequency" id="1150464" flags="" value="2256.099853515625" parameter="1" symbol="freq"/>
+        <Controllable name="Gain" id="1150466" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
+        <Controllable name="Soft Clip" id="1150468" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
       </Processor>
       <Processor id="1106449" name="meter-Delay 2" active="yes" user-latency="0" type="meter"/>
       <Processor id="1106450" name="Row 4" active="yes" user-latency="0" own-input="yes" own-output="no" output="Row 4" type="main-outs" role="Main">
@@ -8708,7 +8628,7 @@
       <Slavable/>
     </Route>
     <Route id="638586" name="Concert Hall Reverb" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="93" flags="AudioBus,OrderSet" color="2642863615"/>
+      <PresentationInfo order="92" flags="AudioBus,OrderSet" color="2642863615"/>
       <Controllable name="solo" id="638620" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="638621" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="638622" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8751,38 +8671,7 @@
         <Controllable name="trimcontrol" id="638602" flags="" value="1.000000000000"/>
       </Processor>
       <Processor id="638603" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="638604" flags="" value="0.287164747715"/>
-      </Processor>
-      <Processor id="1150460" name="Invada Low Pass Filter (stereo)" active="yes" user-latency="0" type="lv2" unique-id="http://invadarecords.com/plugins/lv2/filter/lpf/stereo" count="1" custom="no">
-        <ConfiguredInput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredInput>
-        <CustomSinks>
-          <Channels type="audio" count="2"/>
-        </CustomSinks>
-        <ConfiguredOutput>
-          <Channels type="audio" count="2"/>
-        </ConfiguredOutput>
-        <PresetOutput/>
-        <InputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </InputMap-0>
-        <OutputMap-0>
-          <Channelmap type="audio" from="0" to="0"/>
-          <Channelmap type="audio" from="1" to="1"/>
-        </OutputMap-0>
-        <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port symbol="bypass" value="+0.000000"/>
-          <Port symbol="freq" value="+1202.965454"/>
-          <Port symbol="gain" value="+0.000000"/>
-          <Port symbol="noClip" value="+1.000000"/>
-        </lv2>
-        <Controllable name="Bypass" id="1150462" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
-        <Controllable name="Frequency" id="1150464" flags="" value="1202.965454101562" parameter="1" symbol="freq"/>
-        <Controllable name="Gain" id="1150466" flags="" value="0.000000000000" parameter="2" symbol="gain"/>
-        <Controllable name="Soft Clip" id="1150468" flags="Toggle" value="1.000000000000" parameter="3" symbol="noClip"/>
+        <Controllable name="gaincontrol" id="638604" flags="" value="0.316227763891"/>
       </Processor>
       <Processor id="1106540" name="TAP Reverberator" active="yes" user-latency="0" type="lv2" unique-id="http://moddevices.com/plugins/tap/reverb" count="1" custom="no">
         <ConfiguredInput>
@@ -8838,7 +8727,7 @@
       <Slavable/>
     </Route>
     <Route id="5233" name="Master" default-type="audio" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20">
-      <PresentationInfo order="94" flags="MasterOut,OrderSet" color="1927650047"/>
+      <PresentationInfo order="93" flags="MasterOut,OrderSet" color="1927650047"/>
       <Controllable name="solo" id="432980" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="432986" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="432988" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -8849,7 +8738,6 @@
           <Connection other="Cellos ER/audio_out 1"/>
           <Connection other="Concert Hall Reverb/audio_out 1"/>
           <Connection other="Contrabasses ER/audio_out 1"/>
-          <Connection other="Harp ER/audio_out 1"/>
           <Connection other="Master-2/audio_send 1"/>
           <Connection other="Master-3/audio_send 1"/>
           <Connection other="Master-4/audio_send 1"/>
@@ -8863,7 +8751,6 @@
           <Connection other="Cellos ER/audio_out 2"/>
           <Connection other="Concert Hall Reverb/audio_out 2"/>
           <Connection other="Contrabasses ER/audio_out 2"/>
-          <Connection other="Harp ER/audio_out 2"/>
           <Connection other="Master-2/audio_send 2"/>
           <Connection other="Master-3/audio_send 2"/>
           <Connection other="Master-4/audio_send 2"/>
@@ -8979,16 +8866,16 @@
       </Port>
     </IO>
     <Processor id="5231" name="Amp" active="yes" user-latency="0" type="amp">
-      <Controllable name="gaincontrol" id="5229" flags="" value="1.000000000000"/>
+      <Controllable name="gaincontrol" id="5229" flags="" value="0.063095703721"/>
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="44" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="45" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="45" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="46" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -9018,7 +8905,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="695" y-off="352" x-size="561" y-size="376"/>
+      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="0" x-size="554" y-size="376"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9109,7 +8996,6 @@
       <Window name="RPM-51686" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-50963" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-33021" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1057290" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-33128" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-745191" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-745296" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9127,22 +9013,6 @@
       <Window name="PM-38705-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38707-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38708-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-39427-39457" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-39427-209013" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-39427-39459" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-39427-39460" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-39457-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-209013-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-39459-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-39460-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-590972-590980" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-590972-638384" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-590972-591034" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-590972-591035" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-590980-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-638384-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-591034-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-591035-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-38769-38799" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38769-638422" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-38769-38801" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9151,6 +9021,14 @@
       <Window name="PM-638422-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38801-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-38802-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-590972-590980" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-590972-638384" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-590972-591034" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-590972-591035" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-590980-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-638384-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-591034-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-591035-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-591555-591563" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-591555-638462" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-591555-591617" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9253,6 +9131,14 @@
       <Window name="PM-208976-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-39412-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-39413-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-39427-39457" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-39427-209013" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-39427-39459" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-39427-39460" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-39457-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-209013-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-39459-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-39460-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-39615-39645" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-39615-899008" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-39615-39647" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9724,25 +9610,21 @@
       <Window name="P-50291-50327" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50322" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50321" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-50291-1288235" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50323" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-50291-50324" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-50327-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50322-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50321-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1288235-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50323-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50324-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-899310-899324" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899310-899325" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899310-899327" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-899310-1057588" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899310-899329" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-899310-899330" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-899324-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899325-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899327-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057588-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899329-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-899330-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-50711-50747" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9877,18 +9759,6 @@
       <Window name="PM-638503-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-33053-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-33054-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1057290-1057326" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057321" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057320" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057347" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057322" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1057290-1057323" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-1057326-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057321-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057320-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057347-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057322-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1057323-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-33128-33164" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33128-33159" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-33128-33158" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9981,6 +9851,7 @@
       <Window name="P-977754-977769" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-977771" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-1106819" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-977754-1638966" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-1106727" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-977807" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-977754-977808" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9988,6 +9859,7 @@
       <Window name="PM-977769-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-977771-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106819-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1638966-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106727-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-977807-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-977808-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9995,25 +9867,25 @@
       <Window name="P-1106396-1106411" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106413" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106853" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1106396-1638978" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106449" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1106396-1106450" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-1106410-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106411-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106413-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106853-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1638978-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106449-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106450-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-638586-638600" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638601" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638603" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-638586-1150460" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-1106540" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638612" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-638586-638613" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-638600-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638601-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638603-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1150460-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1106540-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638612-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-638613-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -11246,18 +11118,15 @@
             <Object id="control 1106765" visible="1"/>
           </Object>
           <Object id="processor 1106727"/>
+          <Object id="processor 1638966"/>
         </Object>
-        <Object id="strip 1057290" visible="0" strip-width="Wide">
+        <Object id="strip 1057290" visible="1" strip-width="Wide">
           <Object id="processor 1057320"/>
           <Object id="processor 1057347"/>
           <Object id="processor 1057395">
             <Object id="control 1057280" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 1057290" height="29" visible="0"/>
-        <Object id="automation 1057294" height="62" visible="0"/>
-        <Object id="automation 1057296" height="62" visible="0"/>
-        <Object id="automation 1057290 12/0/0" height="62" visible="0"/>
         <Object id="automation 1057309" height="62" visible="0"/>
         <Object id="automation 1057313" height="62" visible="0"/>
         <Object id="automation 1057132" height="62" visible="0"/>
@@ -11306,8 +11175,6 @@
         <Object id="automation 1057204" height="62" visible="0"/>
         <Object id="automation 1057234" height="62" visible="0"/>
         <Object id="automation 1057238" height="62" visible="0"/>
-        <Object id="automation 1057386" height="62" visible="0"/>
-        <Object id="automation 1057390" height="62" visible="0"/>
         <Object id="automation 1057420" height="62" visible="0"/>
         <Object id="automation 1057424" height="62" visible="0"/>
         <Object id="automation 1057454" height="62" visible="0"/>
@@ -11331,6 +11198,7 @@
           <Object id="processor 1106853">
             <Object id="control 1106765" visible="1"/>
           </Object>
+          <Object id="processor 1638978"/>
         </Object>
         <Object id="automation 39991 13/1/7" height="62" visible="0"/>
         <Object id="automation 681452 13/1/7" height="62" visible="0"/>
