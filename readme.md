@@ -1,7 +1,7 @@
 # Virtual Playing Orchestra Template
 
 ## What is this?
-This is an Ardour project template for composing orchestral music, using only Linux-native plugins.
+This is an Ardour project template for composing orchestral music, using only no-cost virtual instruments and Linux-native LV2 plugins.
 
 ## Requirements
 This template has been tested with:
@@ -9,7 +9,7 @@ This template has been tested with:
 * 8GB memory
 * Quad-core i5 3GHz CPU
 
-The system monitor reports Ardour using about 2GB of memory and only moderate CPU usage with a rather full orchestral score, so it will probably work with 4GB of memory and a much less powerful CPU.
+The system monitor reports Ardour using less than 2GB of memory and only moderate CPU usage with a rather full orchestral score, so it will probably work with 4GB of memory and a much less powerful CPU.
 
 It will probably easily work with audio-centric Debian-based flavors of Linux, including AVLinux, KX Studio, and Ubuntu Studio.
 
@@ -21,8 +21,6 @@ It will probably easily work with audio-centric Debian-based flavors of Linux, i
 
 ### Software 
 
-This project template uses the following software:
-
 * [Ardour 5.5+](http://ardour.org/)
 * [LinuxSampler](https://linuxsampler.org/)
 * [x42 Midi Channel Map](http://x42-plugins.com/x42/x42-midifilter)
@@ -32,11 +30,11 @@ This project template uses the following software:
 * [Virtual Playing Orchestra](http://virtualplaying.com/)
 * [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html)
 
-To install the plugins and virtual instruments:
-
 The plugins can all be obtained from the KX Studio repos. Follow [these directions](http://kxstudio.linuxaudio.org/Repositories) to enable the repos if you do not already have access to them.
 
-`$ sudo apt install linuxsampler-vst x42-plugins invada-studio-plugins-lv2 tap-lv2 unrar-free`
+`$ sudo apt install linuxsampler-lv2-32chan x42-plugins invada-studio-plugins-lv2 tap-lv2 unrar-free`
+
+Launch Ardour, navigate to `Preferences`, `Plugins`, then click `Scan for Plugins`.
 
 Download [Virtual Playing Orchestra](http://virtualplaying.com/) and [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html), then extract both to `/opt`. Assuming they are both in your `~/Downloads`:
 
@@ -49,13 +47,23 @@ sudo unrar x Maestro-Concert-Grandv2.rar /opt/maestro-concert-grand/
 
 ## Using the template
 
-The template is all contained in one file. Download `virtual-playing-orchestra-template.ardour` from this project and open it in Ardour.
+Download [virtual-playing-orchestra-template-0.9.0-beta.tgz](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/v0.9.0-beta/virtual-playing-orchestra-template-0.9.0-beta.tgz)
 
-The project shows a minimal set of midi tracks and a small number of busses. There is one midi track for each section of the orchestra. Almost every instrument section has additional hidden tracks for solos and articulations. You can view any track by going to the mixer and putting a checkmark under "Show" in the left sidebar.
+Extract it to `~/.config/ardour5/templates`:
+
+```
+tar -xzvf ~/Downloads/virtual-playing-orchestra-template-0.9.0-beta.tgz -C ~/.config/ardour5/templates/
+```
+
+Create a new Ardour session. Name it, tick the box next to `Use this template` and select `virtual-playing-orchestra-template`. You can leave the default advanced options. Click `Open`.
+
+The session shows a minimal set of midi tracks and a small number of busses. There is one midi track for each section of the orchestra. Almost every instrument section has additional hidden tracks for solos and articulations. You can view any track by going to the mixer and putting a checkmark under "Show" in the left sidebar.
 
 Plural and singular names distinguish between ensemble and solo tracks. Additional articulations are indicated as a suffix on the track name. For example, "1st Violin Pizz" is a solo first violin playing pizzicato, "2nd Violins Trem" is the entire second violins section playing tremolo.
 
-To play a tuba part (for example), route your midi keyboard input to "Tuba in", play bass keys on your midi keyboard, and you should hear the tuba. To record, arm the Tuba track, click the record button and then the play button, and then play the part on your midi keyboard.
+Use of Ardour's `MIDI input follows MIDI track selection` feature is suggested. In `Preferences`, `MIDI`, `Ports`, tick the box for that feature. Also tick `Music Data`, `Control Data`, and `Follow Selection` for your midi Input.
+
+To play a tuba part (for example), select the `Tuba` track and play bass keys on your midi keyboard; you should hear the tuba. To record, arm the Tuba track, click the record button and then the play button, and then play the part.
 
 ### Seating
 
