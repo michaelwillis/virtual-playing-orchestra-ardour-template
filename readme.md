@@ -1,7 +1,7 @@
 # Virtual Playing Orchestra Template
 
 ## What is this?
-This is an Ardour project template for composing orchestral music, using only no-cost virtual instruments and Linux-native LV2 plugins.
+This is an Ardour template for composing orchestral music, using only no-cost virtual instruments and Linux-native LV2 plugins.
 
 ## Requirements
 This template has been tested with:
@@ -24,19 +24,25 @@ It will probably easily work with audio-centric Debian-based flavors of Linux, i
 * [Ardour 5.5+](http://ardour.org/)
 * [LinuxSampler](https://linuxsampler.org/)
 * [x42 Midi Channel Map](http://x42-plugins.com/x42/x42-midifilter)
-* [Invada Early Reflection Reverb](https://launchpad.net/invada-studio)
-* [Invada Low Pass Filter](https://launchpad.net/invada-studio)
-* [TAP Reverberator](http://tap-plugins.sourceforge.net/ladspa/reverb.html)
+* [Dragonfly Hall Reverb](https://github.com/michaelwillis/dragonfly-reverb)
 * [Virtual Playing Orchestra](http://virtualplaying.com/)
 * [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html)
 
-The plugins can all be obtained from the KX Studio repos. Follow [these directions](http://kxstudio.linuxaudio.org/Repositories) to enable the repos if you do not already have access to them.
+Follow [these directions](http://kxstudio.linuxaudio.org/Repositories) to enable the KXStudio repos if you have not already done so.
 
-`$ sudo apt install linuxsampler-lv2-32chan x42-plugins invada-studio-plugins-lv2 tap-lv2 unrar-free`
+Install the following packages:
 
-Launch Ardour, navigate to `Preferences`, `Plugins`, then click `Scan for Plugins`.
+`$ sudo apt install linuxsampler-lv2-32chan x42-plugins invada-studio-plugins-lv2 tap-lv2 unrar`
 
-Download [Virtual Playing Orchestra](http://virtualplaying.com/) and [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html), then extract both to `/opt`. Assuming they are both in your `~/Downloads`:
+Download [Dragonfly Hall Reverb](https://github.com/michaelwillis/dragonfly-reverb/releases/download/0.0.3-beta/DragonflyReverb-LV2-linux-64-bit-v0.0.3.tgz) and extract it. Assuming that it is in `~/Downloads`:
+
+```
+mkdir ~/.lv2
+cd ~/.lv2
+tar -xzvf ~/Downloads/DragonflyReverb-LV2-linux-64-bit-v0.0.3.tgz
+```
+
+Download [Virtual Playing Orchestra](http://virtualplaying.com/) and [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html), then extract both to `/opt`. Assuming they are both in `~/Downloads`:
 
 ```
 cd ~/Downloads
@@ -47,17 +53,15 @@ sudo unrar x Maestro-Concert-Grandv2.rar /opt/maestro-concert-grand/
 
 ## Using the template
 
-Download [virtual-playing-orchestra-template-0.9.0-beta.tgz](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/v0.9.0-beta/virtual-playing-orchestra-template-0.9.0-beta.tgz)
+Download [virtual-playing-orchestra-template-1.0.0-RC1.tgz](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/v1.0.0-RC1/virtual-playing-orchestra-template-1.0.0-RC1.tgz)
 
 Extract it to `~/.config/ardour5/templates`:
 
 ```
-tar -xzvf ~/Downloads/virtual-playing-orchestra-template-0.9.0-beta.tgz -C ~/.config/ardour5/templates/
+tar -xzvf ~/Downloads/virtual-playing-orchestra-template-1.0.0-RC1.tgz -C ~/.config/ardour5/templates/
 ```
 
-Create a new Ardour session. Name it, tick the box next to `Use this template` and select `virtual-playing-orchestra-template`. You can leave the default advanced options. Click `Open`.
-
-The session shows a minimal set of midi tracks and a small number of busses. There is one midi track for each section of the orchestra. Almost every instrument section has additional hidden tracks for solos and articulations. You can view any track by going to the mixer and putting a checkmark under "Show" in the left sidebar.
+Create a new Ardour session, selecting the template virtual-playing-orchestra-template`.
 
 Plural and singular names distinguish between ensemble and solo tracks. Additional articulations are indicated as a suffix on the track name. For example, "1st Violin Pizz" is a solo first violin playing pizzicato, "2nd Violins Trem" is the entire second violins section playing tremolo.
 
@@ -75,15 +79,11 @@ Some liberties were taken with the layout of the percussion, and the piano is ce
 
 ## More technical details
 
-Each midi track routes into one of four LinuxSampler plugin instances, which then route to an audio bus per section/solo.
-
-Almost all audio busses are not shown by default, to hide most of the complexity. If you want to add plugins or otherwise adjust the audio output of a given section, each instrument section has a corresponding hidden audio bus, with the suffix "Bus" to distinguish it from the midi track.
+Each midi track routes into one of four LinuxSampler plugin instances, which then route to an audio bus per section or solo. If you want to add plugins or otherwise adjust the audio output of a given section, each instrument section has a corresponding audio bus, with the suffix "Bus" to distinguish it from the midi track.
 
 ### Stage Presence
 
-Panning and stereo width are set on the hidden audio busses corresponding to each section. All of these busses are routed into four visible busses called "Row 1", "Row 2", "Row 3", and "Row 4". Each row is set up for different stage depth. Each has volume-adjusted routing to both the master bus and the concert hall reverb bus. Rows 1, 2, and 3 have delays before the reverb.
-
-For additional frontal stage presence, instruments in rows 1 and 2 each have a subtle amount of audio routed to individualized early reflection reverb busses.
+Panning and stereo width are set on the audio busses corresponding to each section or solo. All of these busses are routed into four busses called "Front Reverb", "Middle Reverb", and "Back Reverb", each configured to give the sound corresponding stage depth.
 
 ### LinuxSampler Configuration
 

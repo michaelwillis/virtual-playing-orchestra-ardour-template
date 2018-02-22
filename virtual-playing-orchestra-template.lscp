@@ -1,7 +1,3 @@
-# Exported by: JSampler - a java front-end for LinuxSampler
-# Version: 0.9
-# Date: Thu Feb 09 07:37:09 MST 2017
-
 RESET
 
 SET VOLUME 0.35
@@ -164,8 +160,7 @@ LOAD ENGINE SFZ 0
 SET CHANNEL VOLUME 0 1.0
 SET CHANNEL MIDI_INSTRUMENT_MAP 0 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 0 0
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/piccolo-SOLO-normal-mod-wheel.sfz' 0 0
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/piccolo-SOLO-normal-mod-wheel.sfz' 0 0
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 1 0
@@ -177,8 +172,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 1 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 1 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 1 0 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 1 1 3
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/flute-SOLO-normal-mod-wheel.sfz' 0 1
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/flute-SOLO-normal-mod-wheel.sfz' 0 1
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 2 0
@@ -190,8 +184,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 2 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 2 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 2 0 4
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 2 1 5
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/flute-SEC-normal-mod-wheel.sfz' 0 2
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/flute-SEC-normal-mod-wheel.sfz' 0 2
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 3 0
@@ -204,7 +197,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 3 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 3 0 6
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 3 1 7
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 4 0
 SET CHANNEL MIDI_INPUT_PORT 4 0
@@ -215,7 +207,6 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 4 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 4 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 4 0 8
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 4 1 9
-
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 5 0
@@ -228,7 +219,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 5 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 5 0 10
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 5 1 11
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 6 0
 SET CHANNEL MIDI_INPUT_PORT 6 0
@@ -239,8 +229,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 6 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 6 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 6 0 12
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 6 1 13
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/oboe-SOLO-normal-mod-wheel.sfz' 0 6
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/oboe-SOLO-normal-mod-wheel.sfz' 0 6
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 7 0
@@ -252,8 +241,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 7 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 7 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 7 0 14
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 7 1 15
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/oboe-SEC-normal-mod-wheel.sfz' 0 7
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/oboe-SEC-normal-mod-wheel.sfz' 0 7
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 8 0
@@ -265,8 +253,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 8 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 8 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 8 0 16
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 8 1 17
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/english-horn-SOLO-normal-mod-wheel.sfz' 0 8
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/english-horn-SOLO-normal-mod-wheel.sfz' 0 8
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 9 0
@@ -279,7 +266,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 9 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 9 0 18
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 9 1 19
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 10 0
 SET CHANNEL MIDI_INPUT_PORT 10 0
@@ -290,8 +276,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 10 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 10 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 10 0 20
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 10 1 21
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/clarinet-SOLO-normal-mod-wheel.sfz' 0 10
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/clarinet-SOLO-normal-mod-wheel.sfz' 0 10
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 11 0
@@ -303,8 +288,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 11 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 11 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 11 0 22
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 11 1 23
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/clarinet-SEC-normal-mod-wheel.sfz' 0 11
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/clarinet-SEC-normal-mod-wheel.sfz' 0 11
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 12 0
@@ -317,7 +301,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 12 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 12 0 24
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 12 1 25
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 13 0
 SET CHANNEL MIDI_INPUT_PORT 13 0
@@ -328,8 +311,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 13 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 13 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 13 0 26
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 13 1 27
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/bassoon-SOLO-normal-mod-wheel.sfz' 0 13
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/bassoon-SOLO-normal-mod-wheel.sfz' 0 13
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 14 0
@@ -341,8 +323,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 14 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 14 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 14 0 28
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 14 1 29
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Woodwinds/bassoon-SEC-normal-mod-wheel.sfz' 0 14
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Woodwinds/bassoon-SEC-normal-mod-wheel.sfz' 0 14
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 15 0
@@ -355,7 +336,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 15 0
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 15 0 30
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 15 1 31
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 16 1
 SET CHANNEL MIDI_INPUT_PORT 16 0
@@ -364,8 +344,7 @@ LOAD ENGINE SFZ 16
 SET CHANNEL VOLUME 16 1.0
 SET CHANNEL MIDI_INSTRUMENT_MAP 16 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 16 1
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/french-horn-SOLO-normal-mod-wheel.sfz' 0 16
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/french-horn-SOLO-normal-mod-wheel.sfz' 0 16
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 17 1
@@ -377,8 +356,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 17 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 17 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 17 0 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 17 1 3
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/french-horn-SEC-normal-mod-wheel.sfz' 0 17
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/french-horn-SEC-normal-mod-wheel.sfz' 0 17
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 18 1
@@ -390,8 +368,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 18 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 18 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 18 0 4
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 18 1 5
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/trumpet-SOLO-normal-mod-wheel.sfz' 0 18
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/trumpet-SOLO-normal-mod-wheel.sfz' 0 18
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 19 1
@@ -403,8 +380,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 19 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 19 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 19 0 6
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 19 1 7
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/trumpet-SEC-normal-mod-wheel.sfz' 0 19
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/trumpet-SEC-normal-mod-wheel.sfz' 0 19
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 20 1
@@ -416,8 +392,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 20 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 20 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 20 0 8
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 20 1 9
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/trombone-SOLO-normal-mod-wheel.sfz' 0 20
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/trombone-SOLO-normal-mod-wheel.sfz' 0 20
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 21 1
@@ -429,8 +404,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 21 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 21 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 21 0 10
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 21 1 11
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/trombone-SEC-normal-mod-wheel.sfz' 0 21
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/trombone-SEC-normal-mod-wheel.sfz' 0 21
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 22 1
@@ -442,8 +416,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 22 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 22 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 22 0 12
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 22 1 13
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Brass/tuba-SOLO-normal-mod-wheel.sfz' 0 22
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Brass/tuba-SOLO-normal-mod-wheel.sfz' 0 22
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 23 1
@@ -456,7 +429,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 23 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 23 0 14
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 23 1 15
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 24 1
 SET CHANNEL MIDI_INPUT_PORT 24 0
@@ -467,8 +439,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 24 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 24 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 24 0 16
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 24 1 17
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/bassdrum-snare-cymbals.sfz' 0 24
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/bassdrum-snare-cymbals.sfz' 0 24
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 25 1
@@ -480,8 +451,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 25 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 25 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 25 0 18
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 25 1 19
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/misc.sfz' 0 25
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/misc.sfz' 0 25
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 26 1
@@ -493,8 +463,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 26 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 26 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 26 0 20
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 26 1 21
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/glockenspiel.sfz' 0 26
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/glockenspiel.sfz' 0 26
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 27 1
@@ -506,8 +475,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 27 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 27 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 27 0 22
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 27 1 23
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/xylophone.sfz' 0 27
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/xylophone.sfz' 0 27
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 28 1
@@ -520,7 +488,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 28 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 28 0 24
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 28 1 25
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 29 1
 SET CHANNEL MIDI_INPUT_PORT 29 0
@@ -531,8 +498,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 29 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 29 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 29 0 26
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 29 1 27
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/tubular-bells.sfz' 0 29
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/tubular-bells.sfz' 0 29
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 30 1
@@ -544,8 +510,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 30 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 30 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 30 0 28
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 30 1 29
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/timpani-hit.sfz' 0 30
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/timpani-hit.sfz' 0 30
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 31 1
@@ -557,8 +522,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 31 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 31 1
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 31 0 30
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 31 1 31
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Percussion/timpani-roll.sfz' 0 31
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Percussion/timpani-roll.sfz' 0 31
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 32 2
@@ -569,7 +533,6 @@ SET CHANNEL VOLUME 32 1.0
 SET CHANNEL MIDI_INSTRUMENT_MAP 32 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 32 2
 LOAD INSTRUMENT NON_MODAL '/opt/maestro-concert-grand/maestro_concert_grand_v2.gig' 0 32
-
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 33 2
@@ -582,7 +545,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 33 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 33 0 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 33 1 3
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 34 2
 SET CHANNEL MIDI_INPUT_PORT 34 0
@@ -593,8 +555,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 34 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 34 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 34 0 4
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 34 1 5
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/harp-sustain.sfz' 0 34
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/harp-sustain.sfz' 0 34
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 35 2
@@ -606,8 +567,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 35 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 35 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 35 0 6
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 35 1 7
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/harp-dampened.sfz' 0 35
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/harp-dampened.sfz' 0 35
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 36 2
@@ -620,7 +580,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 36 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 36 0 8
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 36 1 9
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 37 2
 SET CHANNEL MIDI_INPUT_PORT 37 0
@@ -631,8 +590,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 37 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 37 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 37 0 10
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 37 1 11
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/1st-violin-SOLO-normal-mod-wheel.sfz' 0 37
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/1st-violin-SOLO-normal-mod-wheel.sfz' 0 37
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 38 2
@@ -644,8 +602,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 38 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 38 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 38 0 12
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 38 1 13
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/1st-violin-SOLO-pizzicato.sfz' 0 38
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/1st-violin-SOLO-pizzicato.sfz' 0 38
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 39 2
@@ -657,8 +614,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 39 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 39 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 39 0 14
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 39 1 15
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/1st-violin-SEC-normal-mod-wheel.sfz' 0 39
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/1st-violin-SEC-normal-mod-wheel.sfz' 0 39
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 40 2
@@ -670,8 +626,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 40 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 40 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 40 0 16
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 40 1 17
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/1st-violin-SEC-pizzicato.sfz' 0 40
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/1st-violin-SEC-pizzicato.sfz' 0 40
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 41 2
@@ -683,8 +638,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 41 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 41 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 41 0 18
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 41 1 19
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/1st-violin-SEC-tremolo.sfz' 0 41
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/1st-violin-SEC-tremolo.sfz' 0 41
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 42 2
@@ -696,8 +650,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 42 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 42 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 42 0 20
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 42 1 21
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/2nd-violin-SOLO-normal-mod-wheel.sfz' 0 42
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/2nd-violin-SOLO-normal-mod-wheel.sfz' 0 42
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 43 2
@@ -709,8 +662,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 43 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 43 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 43 0 22
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 43 1 23
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/2nd-violin-SOLO-pizzicato.sfz' 0 43
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/2nd-violin-SOLO-pizzicato.sfz' 0 43
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 44 2
@@ -722,8 +674,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 44 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 44 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 44 0 24
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 44 1 25
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/2nd-violin-SEC-normal-mod-wheel.sfz' 0 44
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/2nd-violin-SEC-normal-mod-wheel.sfz' 0 44
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 45 2
@@ -735,8 +686,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 45 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 45 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 45 0 26
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 45 1 27
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/2nd-violin-SEC-pizzicato.sfz' 0 45
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/2nd-violin-SEC-pizzicato.sfz' 0 45
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 46 2
@@ -748,8 +698,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 46 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 46 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 46 0 28
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 46 1 29
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/2nd-violin-SEC-tremolo.sfz' 0 46
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/2nd-violin-SEC-tremolo.sfz' 0 46
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 47 2
@@ -762,7 +711,6 @@ SET CHANNEL AUDIO_OUTPUT_DEVICE 47 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 47 0 30
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 47 1 31
 
-
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 48 3
 SET CHANNEL MIDI_INPUT_PORT 48 0
@@ -771,8 +719,7 @@ LOAD ENGINE SFZ 48
 SET CHANNEL VOLUME 48 1.0
 SET CHANNEL MIDI_INSTRUMENT_MAP 48 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 48 3
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/viola-SOLO-normal-mod-wheel.sfz' 0 48
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/viola-SOLO-normal-mod-wheel.sfz' 0 48
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 49 3
@@ -784,8 +731,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 49 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 49 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 49 0 2
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 49 1 3
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/viola-SOLO-pizzicato.sfz' 0 49
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/viola-SOLO-pizzicato.sfz' 0 49
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 50 3
@@ -797,8 +743,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 50 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 50 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 50 0 4
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 50 1 5
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/viola-SEC-normal-mod-wheel.sfz' 0 50
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/viola-SEC-normal-mod-wheel.sfz' 0 50
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 51 3
@@ -810,8 +755,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 51 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 51 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 51 0 6
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 51 1 7
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/viola-SEC-pizzicato.sfz' 0 51
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/viola-SEC-pizzicato.sfz' 0 51
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 52 3
@@ -823,8 +767,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 52 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 52 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 52 0 8
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 52 1 9
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/viola-SEC-tremolo.sfz' 0 52
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/viola-SEC-tremolo.sfz' 0 52
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 53 3
@@ -836,8 +779,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 53 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 53 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 53 0 10
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 53 1 11
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/cello-SOLO-normal-mod-wheel.sfz' 0 53
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/cello-SOLO-normal-mod-wheel.sfz' 0 53
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 54 3
@@ -849,8 +791,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 54 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 54 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 54 0 12
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 54 1 13
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/cello-SOLO-pizzicato.sfz' 0 54
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/cello-SOLO-pizzicato.sfz' 0 54
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 55 3
@@ -862,8 +803,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 55 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 55 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 55 0 14
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 55 1 15
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/cello-SEC-normal-mod-wheel.sfz' 0 55
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/cello-SEC-normal-mod-wheel.sfz' 0 55
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 56 3
@@ -875,8 +815,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 56 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 56 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 56 0 16
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 56 1 17
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/cello-SEC-pizzicato.sfz' 0 56
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/cello-SEC-pizzicato.sfz' 0 56
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 57 3
@@ -888,8 +827,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 57 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 57 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 57 0 18
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 57 1 19
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/cello-SEC-tremolo.sfz' 0 57
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/cello-SEC-tremolo.sfz' 0 57
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 58 3
@@ -901,8 +839,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 58 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 58 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 58 0 20
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 58 1 21
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/bass-SOLO-normal-mod-wheel.sfz' 0 58
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/bass-SOLO-normal-mod-wheel.sfz' 0 58
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 59 3
@@ -914,8 +851,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 59 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 59 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 59 0 22
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 59 1 23
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/bass-SOLO-pizzicato.sfz' 0 59
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/bass-SOLO-pizzicato.sfz' 0 59
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 60 3
@@ -927,8 +863,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 60 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 60 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 60 0 24
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 60 1 25
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/bass-SEC-normal-mod-wheel.sfz' 0 60
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/bass-SEC-normal-mod-wheel.sfz' 0 60
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 61 3
@@ -940,8 +875,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 61 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 61 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 61 0 26
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 61 1 27
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/bass-SEC-pizzicato.sfz' 0 61
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/bass-SEC-pizzicato.sfz' 0 61
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 62 3
@@ -953,8 +887,7 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 62 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 62 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 62 0 28
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 62 1 29
-LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra/Strings/bass-SEC-tremolo.sfz' 0 62
-
+LOAD INSTRUMENT NON_MODAL '/opt/Virtual-Playing-Orchestra2/Strings/bass-SEC-tremolo.sfz' 0 62
 
 ADD CHANNEL
 SET CHANNEL MIDI_INPUT_DEVICE 63 3
@@ -966,349 +899,3 @@ SET CHANNEL MIDI_INSTRUMENT_MAP 63 NONE
 SET CHANNEL AUDIO_OUTPUT_DEVICE 63 3
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 63 0 30
 SET CHANNEL AUDIO_OUTPUT_CHANNEL 63 1 31
-
-
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [channel]
-#jsampler.fantasia: channelLane = 1
-#jsampler.fantasia: viewType = NORMAL
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [MIDI device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [MIDI device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [MIDI device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [MIDI device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [audio device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [audio device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [audio device]
-#jsampler.fantasia: expanded = false
-#
-#jsampler.fantasia: [audio device]
-#jsampler.fantasia: expanded = false
-#
