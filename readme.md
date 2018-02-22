@@ -32,7 +32,7 @@ Follow [these directions](http://kxstudio.linuxaudio.org/Repositories) to enable
 
 Install the following packages:
 
-`$ sudo apt install linuxsampler-lv2-32chan x42-plugins invada-studio-plugins-lv2 tap-lv2 unrar`
+`$ sudo apt install linuxsampler-lv2-32chan x42-plugins unrar`
 
 Download [Dragonfly Hall Reverb](https://github.com/michaelwillis/dragonfly-reverb/releases/download/0.0.3-beta/DragonflyReverb-LV2-linux-64-bit-v0.0.3.tgz) and extract it. Assuming that it is in `~/Downloads`:
 
