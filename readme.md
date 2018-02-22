@@ -25,7 +25,7 @@ It will probably easily work with audio-centric Debian-based flavors of Linux, i
 * [LinuxSampler](https://linuxsampler.org/)
 * [x42 Midi Channel Map](http://x42-plugins.com/x42/x42-midifilter)
 * [Dragonfly Hall Reverb](https://github.com/michaelwillis/dragonfly-reverb)
-* [Virtual Playing Orchestra](http://virtualplaying.com/)
+* [Virtual Playing Orchestra 3](http://virtualplaying.com/)
 * [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html)
 
 Follow [these directions](http://kxstudio.linuxaudio.org/Repositories) to enable the KXStudio repos if you have not already done so.
@@ -42,11 +42,12 @@ cd ~/.lv2
 tar -xzvf ~/Downloads/DragonflyReverb-LV2-linux-64-bit-v0.0.3.tgz
 ```
 
-Download [Virtual Playing Orchestra](http://virtualplaying.com/) and [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html), then extract both to `/opt`. Assuming they are both in `~/Downloads`:
+Download [Virtual Playing Orchestra](http://virtualplaying.com/), you will need the Wave Files and the Standard Orchestra Sfz Scripts. Download [Maestro Concert Grand Piano](http://sonimusicae.free.fr/matshelgesson-maestro-en.html), Extract all three to `/opt`. Assuming they are both in `~/Downloads`:
 
 ```
 cd ~/Downloads
-sudo unzip Virtual-Playing-Orchestra-v1.0.zip -d /opt
+sudo unzip Virtual-Playing-Orchestra3-wave-files.zip -d /opt/
+sudo unzip Virtual-Playing-Orchestra3-standard-scripts.zip -d /opt/
 sudo mkdir /opt/maestro-concert-grand
 sudo unrar x Maestro-Concert-Grandv2.rar /opt/maestro-concert-grand/
 ```
