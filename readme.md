@@ -54,7 +54,7 @@ sudo unrar x Maestro-Concert-Grandv2.rar /opt/maestro-concert-grand/
 
 ## Using the template
 
-Download [virtual-playing-orchestra-template-1.0.0-RC1.tgz](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/v1.0.0-RC1/virtual-playing-orchestra-template-1.0.0-RC1.tgz)
+Download [virtual-playing-orchestra-template-1.0.0-RC1.tgz](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/1.0.0-RC1/virtual-playing-orchestra-template-1.0.0-RC1.tgz)
 
 Extract it to `~/.config/ardour5/templates`:
 
