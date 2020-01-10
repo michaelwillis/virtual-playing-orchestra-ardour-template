@@ -35,7 +35,6 @@ Install both sfizz and Dragonfly Reverb in a place where Ardour will find LV2 pl
 Download [Virtual Playing Orchestra](http://virtualplaying.com/), you will need the Wave Files and the Performance Orchestra SFZ Scripts. Extract both to `/opt`:
 
 ```
-cd ~/Downloads
 sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-1-wave-files.zip -d /opt/
 sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-2-performance-scripts.zip -d /opt/
 ```
