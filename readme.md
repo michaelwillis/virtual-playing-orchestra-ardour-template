@@ -22,7 +22,7 @@ The system monitor reports Ardour using less than 2GB of memory and only moderat
 ### Software 
 
 * [Ardour 5.12+](http://ardour.org/)
-* [sfizz](https://linuxsampler.org/)
+* [sfizz](https://sfz.tools/sfizz/)
 * [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb)
 * [Virtual Playing Orchestra 3](http://virtualplaying.com/)
 
