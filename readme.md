@@ -3,6 +3,10 @@
 ## What is this?
 This is an Ardour template for composing orchestral music, using only no-cost virtual instruments and LV2 plugins.
 
+## License
+
+[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ## Requirements
 This template has been tested with:
 * 8GB memory
