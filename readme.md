@@ -40,17 +40,17 @@ sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-1-wave-files.zip -d /opt/
 sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-2-performance-scripts.zip -d /opt/
 ```
 
-Download [virtual-playing-orchestra-template-2.0.0-RC1.zip](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/2.0.0-RC1/virtual-playing-orchestra-template-2.0.0-RC1.zip)
+Download [virtual-playing-orchestra-template-2.0.0-RC2.zip](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/2.0.0-RC2/virtual-playing-orchestra-template-2.0.0-RC2.zip)
 
 On Linux, extract to `$HOME/.config/ardour5/templates`:
 
 ```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC1.zip -d $HOME/.config/ardour5/templates/
+unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/.config/ardour5/templates/
 ```
 
 On MacOS, extract to `$HOME/Library/Preferences/Ardour5/templates/`:
 ```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC1.zip -d $HOME/Library/Preferences/Ardour5/templates/
+unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/Library/Preferences/Ardour5/templates/
 ```
 
 ## Using the template
