@@ -1,7 +1,7 @@
 # Virtual Playing Orchestra Template
 
 ## What is this?
-This is an Ardour template for composing orchestral music, using only no-cost virtual instruments and LV2 plugins.
+This is an Ardour template for composing orchestral music, using only no-cost virtual instruments and plugins.
 
 ## License
 
@@ -25,12 +25,15 @@ The system monitor reports Ardour using less than 2GB of memory and only moderat
 * [sfizz](https://linuxsampler.org/)
 * [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb)
 * [Virtual Playing Orchestra 3](http://virtualplaying.com/)
+* Optional [Auburn Sounds Panagement](https://www.auburnsounds.com/products/Panagement.html)
 
 Download and compile [sfizz development branch](https://github.com/sfztools/sfizz/tree/develop).
 
 Download [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb/releases/tag/2.0.0) and extract it.
 
-Install both sfizz and Dragonfly Reverb in a place where Ardour will find LV2 plugins.
+Optionally download the free edition of [Auburn Sounds Panagement](https://www.auburnsounds.com/products/Panagement.html). This is used to add some distance to the super-close mic trumpet samples. The template will still work without it.
+
+Install the above plugins where Ardour will find them.
 
 Download [Virtual Playing Orchestra](http://virtualplaying.com/), you will need the Wave Files and the Performance Orchestra SFZ Scripts. Extract both to `/opt`:
 
@@ -61,15 +64,11 @@ Use of Ardour's `MIDI input follows MIDI track selection` feature is suggested. 
 
 This template uses the "Performance" SFZ files for wind and string instruments, which means that the mod wheel (CC1) controls the dynamics, and velocity controls the articulation (higher velocities tend to have a harder "attack", lower velocities tend to come in more gently). 
 
-### Seating
-
-Each section and solo part is given distinct stage presence with a more or less traditional seating arrangement:
-
-![Seating Chart](seating.png)
-
 ### Stage Presence
 
-Panning and stereo width are set on each track. Every track has a send to one of three busses called "Front Reverb", "Middle Reverb", and "Back Reverb", each configured to give the sound corresponding stage depth.
+All tracks have panning, stereo width, and reverb for stage presence following a traditional seating arrangement:
+
+![Seating Chart](seating.png)
 
 ### Questions and Answers
 
