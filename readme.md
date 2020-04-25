@@ -42,18 +42,13 @@ sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-1-wave-files.zip -d /opt/
 sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-2-performance-scripts.zip -d /opt/
 ```
 
-Download [virtual-playing-orchestra-template-2.0.0-RC2.zip](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/2.0.0-RC2/virtual-playing-orchestra-template-2.0.0-RC2.zip)
+Download **FIXME** virtual-playing-orchestra-template.ardour-template-archive
 
-On Linux, extract to `$HOME/.config/ardour5/templates`:
+* In Ardour, from the menu select "Window", "Template Manager".
+* Click "Import"
+* Browse to and select the virtual-playing-orchestra-template.ardour-template-archive file and choose "Open"
+* You should now see the template listed in your "Session Templates". You can rename templates if you want to keep several versions at once.
 
-```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/.config/ardour5/templates/
-```
-
-On MacOS, extract to `$HOME/Library/Preferences/Ardour5/templates/`:
-```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/Library/Preferences/Ardour5/templates/
-```
 
 ## Using the template
 
@@ -90,3 +85,7 @@ This was done for simplicity's sake. Everybody will have different opinions abou
 **Why isn't there a piano?**
 
 People are very opinionated about which sampled piano they want to use, and Virtual Playing Orchestra does not include one for that very reason. Pick your preference of piano and use it.
+
+**Why doesn't it set up any of the SFZ files? Nothing works!**
+
+First, check that you have installed the Virtual Playing Orchestra library into /opt/. Secondly, make sure you use the packaged template archive and load it using the Template Manager, per the instructions above. If you want to use the git repository directly, you will need to fix the filepath for the plugin state files in the template - the setup.sh script can do that for you, and can package the template for release, too. It's currently only tested on Linux, but should work on MacOS, too. You don't need to worry about any of this if you just download the released template archive per the instructions above.
