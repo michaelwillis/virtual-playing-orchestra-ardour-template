@@ -41,8 +41,9 @@ case "$1" in
 		mungepath "build/templates/$TEMPLATENAME/$TEMPLATEFILE" '$TEMPLATEDIR'
 		cd build
 		tar cJf "$TEMPLATENAME.ardour-template-archive" templates
+		tar cJf "$TEMPLATENAME.tar.xz" templates
 		cd ..
-		echo "Done. New template archive is in build/$TEMPLATENAME.ardour-template-archive" >&2
+		echo "Done. New template archive is in build/$TEMPLATENAME.ardour-template-archive (for Ardour6) and build/$TEMPLATENAME.tar.xz (for Ardour5)" >&2
 	fi
 		;;
   generic)
