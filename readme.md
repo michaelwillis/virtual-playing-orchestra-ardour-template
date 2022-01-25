@@ -35,29 +35,29 @@ Optionally download the free edition of [Auburn Sounds Panagement](https://www.a
 
 Install the above plugins where Ardour will find them.
 
-Download [Virtual Playing Orchestra](http://virtualplaying.com/), you will need the Wave Files and the Performance Orchestra SFZ Scripts. Extract both to `/opt`:
+Download [Virtual Playing Orchestra](http://virtualplaying.com/), you will need the Wave Files and the Performance Orchestra SFZ Scripts. Extract both to `~/opt`:
 
 ```
-sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-1-wave-files.zip -d /opt/
-sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-2-performance-scripts.zip -d /opt/
+sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-1-wave-files.zip -d ~/opt/
+sudo unzip $HOME/Downloads/Virtual-Playing-Orchestra3-2-performance-scripts.zip -d ~/opt/
 ```
 
-Download [virtual-playing-orchestra-template-2.0.0-RC2.zip](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/2.0.0-RC2/virtual-playing-orchestra-template-2.0.0-RC2.zip)
+Download [virtual-playing-orchestra-template-2.1.0.zip](https://github.com/michaelwillis/virtual-playing-orchestra-ardour-template/releases/download/2.1.0/virtual-playing-orchestra-template-2.1.0.zip)
 
-On Linux, extract to `$HOME/.config/ardour5/templates`:
+On Linux, extract to `$HOME/.config/ardour6/templates`:
 
 ```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/.config/ardour5/templates/
+unzip $HOME/Downloads/virtual-playing-orchestra-template-2.1.0.zip -d $HOME/.config/ardour6/templates/
 ```
 
-On MacOS, extract to `$HOME/Library/Preferences/Ardour5/templates/`:
+On MacOS, extract to `$HOME/Library/Preferences/Ardour6/templates/`:
 ```
-unzip $HOME/Downloads/virtual-playing-orchestra-template-2.0.0-RC2.zip -d $HOME/Library/Preferences/Ardour5/templates/
+unzip $HOME/Downloads/virtual-playing-orchestra-template-2.1.0.zip -d $HOME/Library/Preferences/Ardour6/templates/
 ```
 
 ## Using the template
 
-Create a new Ardour session, selecting the template `Virtual Playing Orchestra`.
+Create a new Ardour session, selecting the template `Virtual Playing Orchestra 2022`.
 
 Use of Ardour's `MIDI input follows MIDI track selection` feature is suggested. In `Preferences`, `MIDI`, `Ports`, tick the box for that feature. Also tick `Music Data`, `Control Data`, and `Follow Selection` for your midi Input. As an example, to play a tuba part, select the `Tuba` track and play bass keys on your midi keyboard; you should hear the tuba. To record, arm the Tuba track, click the record button and then the play button, and then play the part.
 
