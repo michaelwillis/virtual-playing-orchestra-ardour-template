@@ -1,0 +1,20 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://sfztools.github.io/sfizz> ;
+	state:state [
+		<http://sfztools.github.io/sfizz:sfzfile> <flute-SOLO-PERF.sfz> ;
+		<http://sfztools.github.io/sfizz:tuningfile> <DefaultScale.scl> ;
+		<http://sfztools.github.io/sfizz#cc001> "0.50393701"^^xsd:float ;
+		<http://sfztools.github.io/sfizz#cc007> "0.78740156"^^xsd:float ;
+		<http://sfztools.github.io/sfizz#cc010> "0.50393701"^^xsd:float ;
+		<http://sfztools.github.io/sfizz#cc011> "1.0"^^xsd:float
+	] .
+
